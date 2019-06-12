@@ -406,7 +406,7 @@
 
 
     <!-- Footer -->
-    @include(footer)
+    @include("footer")
 
 
 	<!-- Back to top -->
