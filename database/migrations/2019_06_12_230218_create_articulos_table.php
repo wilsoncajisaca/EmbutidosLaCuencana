@@ -15,8 +15,8 @@ class CreateArticulosTable extends Migration
     {
         Schema::create('productos', function (Blueprint $table) {
             $table->increments('id');
-            $table->int('id_categoria');
-            $table->int('id_subcategoria');
+            $table->integer('id_categoria');
+            $table->integer('id_subcategoria');
             $table->text('tipo');
             $table->text('ruta');
             $table->text('titulo');
@@ -25,18 +25,18 @@ class CreateArticulosTable extends Migration
             $table->text('detalles');
             $table->float('precio');
             $table->text('portada');
-            $table->int('vistas');
-            $table->int('ventas');
-            $table->int('vistasGratis');
-            $table->int('ventasGratis');
-            $table->int('ofertadoPorCategoria');
-            $table->int('ofertadoPorSubCategoria');
-            $table->int('oferta');
+            $table->integer('vistas');
+            $table->integer('ventas');
+            $table->integer('vistasGratis');
+            $table->integer('ventasGratis');
+            $table->integer('ofertadoPorCategoria');
+            $table->integer('ofertadoPorSubCategoria');
+            $table->integer('oferta');
             $table->float('precioOferta');
-            $table->int('descuentoOferta');
+            $table->integer('descuentoOferta');
             $table->text('imgOferta');
             $table->dateTime('finOferta');
-            $table->int('nuevo');
+            $table->integer('nuevo');
             $table->float('peso');
             $table->float('entrega');
             $table->timestamp('fecha');
