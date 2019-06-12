@@ -41,6 +41,8 @@ Route::get("/productos","productosController@index");
 Route::get("/detalle_producto","productosController@show");
 
 Route::get("/blog","blogController@index");
+Route::get("/blog_detalle","blogController@show");
+
 
 Route::get("/nosotros","aboutController@index");
 
