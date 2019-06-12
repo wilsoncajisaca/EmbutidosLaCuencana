@@ -30,7 +30,7 @@
 
 			<div class="wrap_header">
 				<!-- Logo -->
-				<a href="home" class="logo">
+				<a href="/" class="logo">
 					<img src="images/icons/logo.png" alt="IMG-LOGO">
 				</a>
 
