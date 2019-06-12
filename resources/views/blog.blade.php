@@ -85,7 +85,7 @@
 									Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
 								</p>
 
-								<a href="blog-detail.html" class="s-text20">
+								<a href="blog_detalle" class="s-text20">
 									Continue Reading
 									<i class="fa fa-long-arrow-right m-l-8" aria-hidden="true"></i>
 								</a>
@@ -94,7 +94,7 @@
 
 						<!-- item blog -->
 						<div class="item-blog p-b-80">
-							<a href="blog-detail.html" class="item-blog-img pos-relative dis-block hov-img-zoom">
+							<a href="blog_detalle" class="item-blog-img pos-relative dis-block hov-img-zoom">
 								<img src="images/blog-05.jpg" alt="IMG-BLOG">
 
 								<span class="item-blog-date dis-block flex-c-m pos1 size17 bg4 s-text1">
@@ -104,7 +104,7 @@
 
 							<div class="item-blog-txt p-t-33">
 								<h4 class="p-b-11">
-									<a href="blog-detail.html" class="m-text24">
+									<a href="blog_detalle" class="m-text24">
 										The White Sneakers Nearly Every Fashion Girls Own
 									</a>
 								</h4>
@@ -129,7 +129,7 @@
 									Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
 								</p>
 
-								<a href="blog-detail.html" class="s-text20">
+								<a href="blog_detalle" class="s-text20">
 									Continue Reading
 									<i class="fa fa-long-arrow-right m-l-8" aria-hidden="true"></i>
 								</a>
@@ -138,7 +138,7 @@
 
 						<!-- item blog -->
 						<div class="item-blog p-b-80">
-							<a href="blog-detail.html" class="item-blog-img pos-relative dis-block hov-img-zoom">
+							<a href="blog_detalle" class="item-blog-img pos-relative dis-block hov-img-zoom">
 								<img src="images/blog-08.jpg" alt="IMG-BLOG">
 
 								<span class="item-blog-date dis-block flex-c-m pos1 size17 bg4 s-text1">
@@ -148,7 +148,7 @@
 
 							<div class="item-blog-txt p-t-33">
 								<h4 class="p-b-11">
-									<a href="blog-detail.html" class="m-text24">
+									<a href="blog_detalle" class="m-text24">
 										Black Friday Guide: Best Sales & Discount Codes
 									</a>
 								</h4>
@@ -173,7 +173,7 @@
 									Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce eget dictum tortor. Donec dictum vitae sapien eu varius
 								</p>
 
-								<a href="blog-detail.html" class="s-text20">
+								<a href="blog_detalle" class="s-text20">
 									Continue Reading
 									<i class="fa fa-long-arrow-right m-l-8" aria-hidden="true"></i>
 								</a>
@@ -182,7 +182,7 @@
 
 						<!-- item blog -->
 						<div class="item-blog p-b-80">
-							<a href="blog-detail.html" class="item-blog-img pos-relative dis-block hov-img-zoom">
+							<a href="blog_detalle" class="item-blog-img pos-relative dis-block hov-img-zoom">
 								<img src="images/blog-02.jpg" alt="IMG-BLOG">
 
 								<span class="item-blog-date dis-block flex-c-m pos1 size17 bg4 s-text1">
@@ -192,7 +192,7 @@
 
 							<div class="item-blog-txt p-t-33">
 								<h4 class="p-b-11">
-									<a href="blog-detail.html" class="m-text24">
+									<a href="blog_detalle" class="m-text24">
 										Black Friday Guide: Best Sales & Discount Codes
 									</a>
 								</h4>
