@@ -165,11 +165,14 @@
 			</div>
 		</div>
 
+
+
+
 		<!-- Header Mobile -->
 		<div class="wrap_header_mobile">
 			<!-- Logo moblie -->
 			<a href="index.html" class="logo-mobile">
-				<img src="images/icons/logo.png" alt="IMG-LOGO">
+				<img src="images/icons/logoC.jpg" alt="IMG-LOGO">
 			</a>
 
 			<!-- Button show menu -->
@@ -269,6 +272,9 @@
 			</div>
 		</div>
 
+
+
+
 		<!-- Menu Mobile -->
 		<div class="wrap-side-menu" >
 			<nav class="side-menu">
@@ -288,7 +294,6 @@
 							<div class="topbar-language rs1-select2">
 								<select class="selection-1" name="time">
 									<option>USD</option>
-									<option>EUR</option>
 								</select>
 							</div>
 						</div>
@@ -305,13 +310,7 @@
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="index.html">Home</a>
-						<ul class="sub-menu">
-							<li><a href="index.html">Homepage V1</a></li>
-							<li><a href="home-02.html">Homepage V2</a></li>
-							<li><a href="home-03.html">Homepage V3</a></li>
-						</ul>
-						<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
+						<a href="index.html">Hogar</a>
 					</li>
 
 					<li class="item-menu-mobile">
