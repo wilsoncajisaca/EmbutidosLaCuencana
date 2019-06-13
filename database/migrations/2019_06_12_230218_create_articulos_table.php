@@ -30,7 +30,7 @@ class CreateArticulosTable extends Migration
             $table->integer('vistasGratis');
             $table->integer('ventasGratis');
             $table->integer('ofertadoPorCategoria');
-            $table->integer('ofertadoPorSubCategoria');
+            $table->integer('ogitfertadoPorSubCategoria');
             $table->integer('oferta');
             $table->float('precioOferta');
             $table->integer('descuentoOferta');
