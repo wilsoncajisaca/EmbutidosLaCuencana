@@ -51,7 +51,7 @@ Route::get("/contactanos","contactController@index");
 
 Route::get("/leer", function(){
 
-    $productos=Producto::all();
+    $productos=App\Producto::all();
 
     foreach($productos as $producto){
 
