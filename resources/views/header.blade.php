@@ -31,7 +31,7 @@
 			<div class="wrap_header">
 				<!-- Logo -->
 				<a href="/" class="logo">
-					<img src="images/icons/logo.png" alt="IMG-LOGO">
+					<img src="images/icons/logoC.jpg" alt="IMG-LOGO">
 				</a>
 
 				<!-- Menu -->
