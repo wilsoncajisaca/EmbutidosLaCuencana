@@ -50,7 +50,7 @@ Route::get("/contactanos","contactController@index");
 
 
 Route::get("/leer", function(){
-    
+
     $productos=Producto::all();
 
     foreach($productos as $producto){
