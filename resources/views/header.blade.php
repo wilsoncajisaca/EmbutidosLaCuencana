@@ -183,6 +183,20 @@
 						<img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
 
+					<div class="wrap_menu">
+							<nav class="menu">
+								<ul class="main_menu">
+									<li>
+										<a href="#">Perfil</a>
+										<ul class="sub_menu">
+											<li><a href="#">Ingresar</a></li>
+											<li><a href="#">Crea una cuenta</a></li>
+										</ul>
+									</li>
+								</ul>
+							</nav>
+					</div>	
+
 					<span class="linedivide2"></span>
 
 					<div class="header-wrapicon2">
@@ -247,8 +261,9 @@
 
 							<div class="header-cart-buttons">
 								<div class="header-cart-wrapbtn">
+
 									<!-- Button -->
-									<a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
+									<a href="carrito" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
 										View Cart
 									</a>
 								</div>
@@ -281,14 +296,14 @@
 				<ul class="main-menu">
 					<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
 						<span class="topbar-child1">
-							Free shipping for standard order over $100
+							Obten grandes beneficios...
 						</span>
 					</li>
 
 					<li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
 						<div class="topbar-child2-mobile">
 							<span class="topbar-email">
-								fashe@example.com
+								wilsoncajisaca@gmail.com
 							</span>
 
 							<div class="topbar-language rs1-select2">
@@ -310,31 +325,23 @@
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="index.html">Hogar</a>
+						<a href="/">Hogar</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="product.html">Shop</a>
+						<a href="productos">Productos</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="product.html">Sale</a>
+						<a href="blog">Blog</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="cart.html">Features</a>
+						<a href="nosotros">Quienes somos</a>
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="blog.html">Blog</a>
-					</li>
-
-					<li class="item-menu-mobile">
-						<a href="about.html">About</a>
-					</li>
-
-					<li class="item-menu-mobile">
-						<a href="contact.html">Contact</a>
+						<a href="contactanos">Contactanos</a>
 					</li>
 				</ul>
 			</nav>
