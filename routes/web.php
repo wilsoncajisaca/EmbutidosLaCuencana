@@ -47,3 +47,15 @@ Route::get("/blog_detalle","blogController@show");
 Route::get("/nosotros","aboutController@index");
 
 Route::get("/contactanos","contactController@index");
+
+
+Route::get("/leer",function(){
+    $productos=Producto::all();
+
+    foreach($productos as $producto){
+
+        echo $producto->titulo;
+
+    }
+
+});
