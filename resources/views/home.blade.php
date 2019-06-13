@@ -290,7 +290,7 @@
 							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 								<!-- Block2 -->
 								<div class="block2">
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelsale">
+									<div class="block2-img wrap-pic-w of-hidden pos-relative <?php echo "block2-labelsale" ?>">
 										<img src="images/item-06.jpg" alt="IMG-PRODUCT">
 
 										<div class="block2-overlay trans-0-4">
