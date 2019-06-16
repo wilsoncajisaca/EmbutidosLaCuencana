@@ -76,8 +76,8 @@ Route::get("/insert",function(){
     $categorias=new App\Categoria;
 
     $categorias->categoria="PRUEBA";
-    $categorias->categoria="/prueba";
-    $categorias->categoria="06-16-2019 12:57:00";
+    $categorias->ruta="/prueba";
+    $categorias->fecha="06-16-2019 12:57:00";
 
     $categorias->save();
 
