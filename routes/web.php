@@ -82,3 +82,15 @@ Route::get("/insert",function(){
     $categorias->save();
 
 });
+
+Route::get("/update",function(){
+
+    $categorias=App\Categoria::find(7);
+
+    $categorias->categoria="ACERCA DE";
+    $categorias->ruta="/about";
+    $categorias->fecha="06-16-2019 12:57:00";
+
+    $categorias->save();
+
+});
