@@ -60,3 +60,11 @@ Route::get("/leer", function(){
     }
 
 });
+
+Route::get("/categoria", function(){
+
+    $categorias=App\Categoria::where('categoria',"home")->get();
+
+    return $categoria;
+
+});
