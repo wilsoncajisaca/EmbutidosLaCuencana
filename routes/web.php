@@ -70,3 +70,15 @@ Route::get("/categoria", function(){
     return $categorias;
 
 });
+
+Route::get("/insert",function(){
+
+    $categorias=new Categoria;
+
+    $categorias->categoria="PRUEBA";
+    $categorias->categoria="/prueba";
+    $categorias->categoria="06-16-2019 12:57:00";
+
+    $categorias->save();
+
+});
