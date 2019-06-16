@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class ModificarCategoriaACategoriaId extends Migration
+class ModificarCategoriaYSubCategoriaACategoriaId extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,8 @@ class ModificarCategoriaACategoriaId extends Migration
     public function up()
     {
         Schema::table('productos', function (Blueprint $table) {
-            $table->dropColumn(['id_categoria','id_subcategoria']);
+            $table->integer("Categoria_id");
+            $table->integer("Subcategoria_id");
         });
     }
 
@@ -26,7 +27,8 @@ class ModificarCategoriaACategoriaId extends Migration
     public function down()
     {
         Schema::table('productos', function (Blueprint $table) {
-            //
+            $table->dropColumn("Categoria_id");
+            $table->dropColumn("Subcategoria_id");
         });
     }
 }
