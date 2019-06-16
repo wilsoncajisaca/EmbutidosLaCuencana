@@ -128,3 +128,13 @@ Route::get("/leer",function(){
     return $categorias;
 
 });
+
+Route::get("/restore",function(){
+
+    $categorias=App\Categoria::withTrashed()
+    ->where('id',8)
+    ->restore();
+
+    //return $categorias;
+
+});
