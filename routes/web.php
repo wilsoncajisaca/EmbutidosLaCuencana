@@ -125,4 +125,6 @@ Route::get("/leer",function(){
     ->where('id',8)
     ->get();
 
+    return $categorias;
+
 });
