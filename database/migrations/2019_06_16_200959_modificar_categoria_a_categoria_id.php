@@ -14,7 +14,7 @@ class ModificarCategoriaACategoriaId extends Migration
     public function up()
     {
         Schema::table('productos', function (Blueprint $table) {
-            $table->dropColumn(['id_categoria','id_subcategoria']);
+            $table->text(['Categoria_id','Subcategoria_id']);
         });
     }
 
@@ -26,7 +26,7 @@ class ModificarCategoriaACategoriaId extends Migration
     public function down()
     {
         Schema::table('productos', function (Blueprint $table) {
-            //
+            $table->dropColumn(['Categoria_id','Subcategoria_id']);
         });
     }
 }
