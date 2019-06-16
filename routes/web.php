@@ -115,6 +115,6 @@ Route::get("/varios",function(){
 
 Route::get("/softdeleted",function(){
 
-    App\Categoria::find(8)->deleted;
+    App\Categoria::find(8)->deleted();
 
 });
