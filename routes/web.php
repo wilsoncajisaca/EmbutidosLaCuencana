@@ -94,3 +94,11 @@ Route::get("/update",function(){
     $categorias->save();
 
 });
+
+Route::get("/borrar",function(){
+
+    $categorias=App\Categoria::find(7);
+
+    $categorias->delete();
+
+});
