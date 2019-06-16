@@ -14,8 +14,7 @@ class ModificarCategoriaACategoriaId extends Migration
     public function up()
     {
         Schema::table('productos', function (Blueprint $table) {
-            $table->renameColumn('id_categoria', 'Categoria_id');
-            $table->renameColumn('id_subcategoria', 'Subcategoria_id');
+            $table->dropColumn(['id_categoria','id_subcategoria']);
         });
     }
 
