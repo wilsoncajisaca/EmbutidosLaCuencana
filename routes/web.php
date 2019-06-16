@@ -73,7 +73,7 @@ Route::get("/categoria", function(){
 
 Route::get("/insert",function(){
 
-    $categorias=new Categoria;
+    $categorias=new App\Categoria;
 
     $categorias->categoria="PRUEBA";
     $categorias->categoria="/prueba";
