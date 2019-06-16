@@ -112,3 +112,9 @@ Route::get("/varios",function(){
     App\Categoria::create(["categoria"=>"VARIOS", "ruta"=>"/varios", "fecha"=>"06-16-2019 14:17:00"]);
 
 });
+
+Route::get("/softdeleted",function(){
+
+    App\Categoria::find(8)->deleted;
+
+});
