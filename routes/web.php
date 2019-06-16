@@ -51,11 +51,11 @@ Route::get("/contactanos","contactController@index");
 
 Route::get("/leer", function(){
 
-    $productos=App\Producto::all();
+    $categorias=App\Categoria::all();
 
-    foreach($productos as $producto){
+    foreach($categorias as $categoria){
 
-        echo $producto->titulo;
+        echo $categoria->categoria;
 
     }
 
