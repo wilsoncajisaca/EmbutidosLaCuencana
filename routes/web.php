@@ -101,4 +101,14 @@ Route::get("/borrar",function(){
 
     $categorias->delete();
 
+    //Or
+
+    //App\Categoria::where('id',7)->delete();
+
+});
+
+Route::get("/varios",function(){
+
+    App\Categoria::create(["categoria"=>"VARIOS", "ruta"=>"/varios", "fecha"=>"06-16-2019 14:17:00"]);
+
 });
