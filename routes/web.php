@@ -63,7 +63,7 @@ Route::get("/leer", function(){
 
 Route::get("/categoria", function(){
 
-    $categorias=App\Categoria::where('categoria',"home")->get();
+    $categorias=App\Categoria::where('categoria',"HOME")->get();
 
     return $categorias;
 
