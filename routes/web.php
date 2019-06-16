@@ -49,7 +49,7 @@ Route::get("/nosotros","aboutController@index");
 Route::get("/contactanos","contactController@index");
 
 
-Route::get("/leer", function(){
+/*Route::get("/leer", function(){
 
     $categorias=App\Categoria::all();
 
@@ -59,7 +59,7 @@ Route::get("/leer", function(){
 
     }
 
-});
+});*/
 
 Route::get("/categoria", function(){
 
@@ -116,5 +116,13 @@ Route::get("/varios",function(){
 Route::get("/softdeleted",function(){
 
     App\Categoria::find(8)->delete();
+
+});
+
+Route::get("/leer",function(){
+
+    $categorias=App\Categoria::withTrashed()
+    ->where('id',8)
+    ->get();
 
 });
