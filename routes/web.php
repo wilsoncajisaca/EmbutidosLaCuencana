@@ -138,3 +138,11 @@ Route::get("/restore",function(){
     //return $categorias;
 
 });
+
+Route::get("/hardeleted",function(){
+
+    $categorias=App\Categoria::withTrashed()
+    ->where('id',8)
+    ->forceDelete();
+
+});
