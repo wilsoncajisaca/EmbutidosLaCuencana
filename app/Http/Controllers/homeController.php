@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Producto;
+use App\Slide;
 
 class homeController extends Controller
 {
@@ -15,8 +15,8 @@ class homeController extends Controller
      */
     public function index()
     {
-        $productos=Producto::all();
-        return view ("home",['productos'=>$productos]);
+        $slide=Slide::all();
+        return view ("home",['slides'=>$slide]);
     }
 
     /**
