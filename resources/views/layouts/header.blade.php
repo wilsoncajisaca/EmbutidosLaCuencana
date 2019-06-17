@@ -337,7 +337,7 @@
 
 					<li class="item-menu-mobile">
 						<a href="productos">Categorias</a>
-						<ul class="sub_menu">
+						<ul class="sub-menu">
 							<li><a href="#">Carne de Ternero</a></li>
 							<li><a href="#">Carne de Porcino</a></li>
 							<li><a href="#">Carne de Cordero</a></li>
