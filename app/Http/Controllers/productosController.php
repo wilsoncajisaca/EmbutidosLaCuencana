@@ -18,7 +18,7 @@ class productosController extends Controller
     {
         $categorias=Categoria::all();
         $producto=Producto::all();
-        return view ("productos.lista",compact("categorias","productos"));
+        return view ("productos.lista",compact(["categorias","productos"]));
     }
 
     /**
