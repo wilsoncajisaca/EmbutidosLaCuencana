@@ -89,10 +89,10 @@
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active" data-toggle="tab" href="#best-seller" role="tab">Mas Vendidos</a>
+						<a class="nav-link active" data-toggle="tab" href="#best-seller" role="tab">Recien Agregados</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="#featured" role="tab">Destacados</a>
+						<a class="nav-link" data-toggle="tab" href="#featured" role="tab">Mas Vendidos</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" data-toggle="tab" href="#top-rate" role="tab">Mejor Calificacion</a>
