@@ -48,7 +48,7 @@ class productosController extends Controller
      */
     public function show()
     {
-        return view ("producto.producto_detail");
+        return view ("productos.producto_detail");
     }
 
     /**
