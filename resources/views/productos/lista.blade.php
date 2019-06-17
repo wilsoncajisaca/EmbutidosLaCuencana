@@ -77,8 +77,9 @@
 						<!--  -->
 						<h4 class="m-text14 p-b-32">
 
+							{{$productos->titulo}}
 						
-							Filters
+							Filtros
 						</h4>
 
 						<div class="filter-price p-t-22 p-b-50 bo3">
