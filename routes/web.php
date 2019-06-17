@@ -32,7 +32,7 @@ Route::get('/cart','paginascontroller@cart');*/
 
 //Route::resource("posts","paginaPrincipal");
 
-Route::resource('/', 'UserController');
+Route::resource('/productos', 'productosController');
 
 Route::get("/","paginaPrincipal@index");
 Route::get("/home","paginaPrincipal@index");
