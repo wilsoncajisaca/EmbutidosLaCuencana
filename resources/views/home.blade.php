@@ -89,16 +89,13 @@
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active" data-toggle="tab" href="#best-seller" role="tab">Best Seller</a>
+						<a class="nav-link active" data-toggle="tab" href="#best-seller" role="tab">Mas Vendidos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="#featured" role="tab">Featured</a>
+						<a class="nav-link" data-toggle="tab" href="#featured" role="tab">Destacados</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="#sale" role="tab">Sale</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" data-toggle="tab" href="#top-rate" role="tab">Top Rate</a>
+						<a class="nav-link" data-toggle="tab" href="#top-rate" role="tab">Mejor Calificacion</a>
 					</li>
 				</ul>
 
