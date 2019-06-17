@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Slide;
 use App\Producto;
+use App\Linkinstagram;
 
 class homeController extends Controller
 {
@@ -18,7 +19,8 @@ class homeController extends Controller
     {
         $slide=Slide::all();
         $producto=Producto::all();
-        return view ("home",['slides'=>$slide, 'productos'=>$producto]);
+        $fotosIns=Linkinstagram::all();
+        return view ("home",['slides'=>$slide, 'productos'=>$producto, 'instagramfotos'=>$fotosIns]);
     }
 
     /**
