@@ -1,5 +1,8 @@
 <?php
 
+use App\Categoria;
+use App\Producto;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,6 +31,8 @@ Route::get('/home','paginascontroller@inicio');
 Route::get('/cart','paginascontroller@cart');*/
 
 //Route::resource("posts","paginaPrincipal");
+
+Route::resource('/', 'UserController');
 
 Route::get("/","paginaPrincipal@index");
 Route::get("/home","paginaPrincipal@index");
@@ -144,5 +149,4 @@ Route::get("/hardeleted",function(){
     $categorias=App\Categoria::withTrashed()
     ->where('id',8)
     ->forceDelete();
-
 });
