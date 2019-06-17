@@ -77,7 +77,11 @@
 						<!--  -->
 						<h4 class="m-text14 p-b-32">
 
-							{{$productos->titulo}}
+						@foreach($productos as $producto)
+						
+									{{$producto->titulo}}
+
+							@endforeach
 						
 							Filtros
 						</h4>
