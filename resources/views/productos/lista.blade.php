@@ -74,9 +74,15 @@
 
 						</ul>
 
+
+
 						<!--  -->
 						<h4 class="m-text14 p-b-32">
-							Filters
+							@foreach($productos as $producto)
+
+								{{$producto->titulo}}
+								
+							@endforeach
 						</h4>
 
 						<div class="filter-price p-t-22 p-b-50 bo3">
