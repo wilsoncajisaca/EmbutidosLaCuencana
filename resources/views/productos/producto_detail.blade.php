@@ -35,7 +35,7 @@
 
 	<!-- Header -->
     
-    @include("header")
+    @include("layouts/header")
 
 	<!-- breadcrumb -->
 	<div class="bread-crumb bgwhite flex-w p-l-52 p-r-15 p-t-30 p-l-15-sm">
@@ -504,7 +504,7 @@
 
 	<!-- Footer -->
 
-    @include("footer")
+    @include("layouts/footer")
 
 	<!-- Back to top -->
 	<div class="btn-back-to-top bg0-hov" id="myBtn">
