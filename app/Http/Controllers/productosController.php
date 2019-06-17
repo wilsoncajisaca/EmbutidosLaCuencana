@@ -46,7 +46,7 @@ class productosController extends Controller
      */
     public function show()
     {
-        //return view ("producto_detail");
+        return view ("producto.producto_detail");
     }
 
     /**
