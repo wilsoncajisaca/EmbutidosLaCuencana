@@ -188,17 +188,17 @@
 
 					<!-- Product -->
 					<div class="row">
-					
-					@foreach($productos as $producto)
-
-					<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+						<?php $i=0; ?>
+						@foreach($productos as $producto)
+							@if(++$i>2) break;
+						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
 								<!-- Block2 -->
 							<div class="block2">
 									
-									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-										<img src="images/item-02.jpg" alt="IMG-PRODUCT">
+								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+									<img src="images/item-02.jpg" alt="IMG-PRODUCT">
 
-										<div class="block2-overlay trans-0-4">
+									<div class="block2-overlay trans-0-4">
 											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
 												<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
 												<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
@@ -220,14 +220,14 @@
 
 										<span class="block2-price m-text6 p-r-5">
 											{{$producto->precio}}
-										</span>
-									</div>
+									</span>
 								</div>
 							</div>
+						</div>
 
 							@endforeach
 
-						</div>
+					</div>
 
 					<!-- Pagination -->
 					<div class="pagination flex-m flex-w p-t-26">
