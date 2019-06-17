@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class paginaPrincipal extends Controller
+use App\Producto;
+
+class homeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +15,8 @@ class paginaPrincipal extends Controller
      */
     public function index()
     {
-        //
-        return view("home");
+        $productos=Producto::all();
+        return view ("home",['productos'=>$productos]);
     }
 
     /**
@@ -25,9 +27,6 @@ class paginaPrincipal extends Controller
     public function create()
     {
         //
-
-        return "Estas en el create";
-
     }
 
     /**
@@ -36,7 +35,7 @@ class paginaPrincipal extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store()
+    public function store(Request $request)
     {
         //
     }
@@ -47,11 +46,9 @@ class paginaPrincipal extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function show($id)
     {
         //
-        return "en el show";
-
     }
 
     /**
@@ -62,7 +59,7 @@ class paginaPrincipal extends Controller
      */
     public function edit($id)
     {
-        return "Estas acc.. al metodo edit con el par: " . $id;
+        //
     }
 
     /**
