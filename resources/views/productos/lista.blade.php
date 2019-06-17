@@ -35,7 +35,7 @@
 </head>
 <body class="animsition">
 
-    @include('../layouts/header')
+    @include('layouts/header')
 
 	<!-- Title Page -->
 	<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url(images/heading-pages-02.jpg);">
@@ -577,7 +577,7 @@
 		</div>
     </section>
     
-    @include('../layouts/footer')
+    @include('layouts/footer')
 
 	<!-- Back to top -->
 	<div class="btn-back-to-top bg0-hov" id="myBtn">
