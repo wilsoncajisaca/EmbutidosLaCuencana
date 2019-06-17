@@ -14,4 +14,5 @@ use App\Producto;
 |
 */
 Route::resource('/', 'homeController');
+Route::resource('/home', 'homeController');
 Route::resource('/productos', 'productosController');
