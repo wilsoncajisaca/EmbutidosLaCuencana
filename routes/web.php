@@ -14,6 +14,8 @@ use App\Producto;
 |
 */
 
+Route::resource('/productos', 'productosController');
+
 /*Route::get('/', function () {
     return view('home');
 });*/
@@ -32,9 +34,7 @@ Route::get('/cart','paginascontroller@cart');*/
 
 //Route::resource("posts","paginaPrincipal");
 
-Route::resource('/productos', 'productosController');
-
-Route::get("/","paginaPrincipal@index");
+/*Route::get("/","paginaPrincipal@index");
 Route::get("/home","paginaPrincipal@index");
 Route::get("/login","paginaPrincipal@create");
 Route::get("/registro","paginaPrincipal@show");
@@ -52,6 +52,7 @@ Route::get("/blog_detalle","blogController@show");
 Route::get("/nosotros","aboutController@index");
 
 Route::get("/contactanos","contactController@index");
+*/
 
 
 /*Route::get("/leer", function(){
@@ -66,7 +67,7 @@ Route::get("/contactanos","contactController@index");
 
 });*/
 
-Route::get("/categoria", function(){
+/*Route::get("/categoria", function(){
 
     $categorias=App\Categoria::where('categoria',"HOME")
     ->where('ruta', '/home')
@@ -150,3 +151,4 @@ Route::get("/hardeleted",function(){
     ->where('id',8)
     ->forceDelete();
 });
+*/
