@@ -188,9 +188,11 @@
 
 					<!-- Product -->
 					<div class="row">
-						<?php $i=0; ?>
-						@foreach($productos as $producto)
-							@if(++$i>2) break;
+						<?php $i=0; 
+						foreach($productos as $producto)
+						{
+							if(++$i>2) break; ?>
+
 						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
 								<!-- Block2 -->
 							<div class="block2">
@@ -215,17 +217,17 @@
 
 									<div class="block2-txt p-t-20">
 										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											{{$producto->titulo}}
+											<?php echo $producto->titulo; ?>
 										</a>
 
 										<span class="block2-price m-text6 p-r-5">
-											{{$producto->precio}}
+											<?php echo $producto->precio; ?>
 									</span>
 								</div>
 							</div>
 						</div>
 
-							@endforeach
+					<?php } ?>
 
 					</div>
 
