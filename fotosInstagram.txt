@@ -1,0 +1,5 @@
+los tamanos para las fotos de instagram recomendados son 1200px ; 1200px...
+
+para cuando migrate no se quiera iniciar en heroku
+$ heroku run bash
+$ php artisan migrate
