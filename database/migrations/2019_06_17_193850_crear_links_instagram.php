@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CrearInstagramFotos extends Migration
+class CrearLinksInstagram extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CrearInstagramFotos extends Migration
      */
     public function up()
     {
-        Schema::create('instagrams', function (Blueprint $table) {
+        Schema::create('linkinstagrams', function (Blueprint $table) {
             $table->increments('id');
             $table->text('url');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CrearInstagramFotos extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('instagrams');
+        Schema::dropIfExists('linkinstagrams');
     }
 }
