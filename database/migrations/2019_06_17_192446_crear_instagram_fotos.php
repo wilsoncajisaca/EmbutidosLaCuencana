@@ -15,7 +15,7 @@ class CrearInstagramFotos extends Migration
     {
         Schema::create('instagrams', function (Blueprint $table) {
             $table->increments('id');
-            $table->i('url');
+            $table->text('url');
             $table->timestamps();
         });
     }
