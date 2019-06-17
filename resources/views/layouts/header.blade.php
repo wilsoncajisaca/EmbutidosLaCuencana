@@ -43,7 +43,13 @@
 							</li>
 
 							<li>
-								<a href="productos">Productos</a>
+								<a>Categorias</a>
+									<li> 
+										<a href="productos">Categorias</a>
+									</li>
+									<li> 
+										<a href="productos">Categorias</a>
+									</li>
 							</li>
 
 							<li>
