@@ -16,6 +16,6 @@ use App\Producto;
 Route::resource('/', 'homeController');
 Route::resource('/home', 'homeController');
 Route::resource('/productos', 'productosController');
-/*Auth::routes();
+Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');*/
+Route::get('/home', 'HomeController@index')->name('home');
