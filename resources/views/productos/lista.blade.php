@@ -92,12 +92,12 @@
 								<div class="w-size11">
 									<!-- Button -->
 									<button class="flex-c-m size4 bg7 bo-rad-15 hov1 s-text14 trans-0-4">
-										Filter
+										Filtrar
 									</button>
 								</div>
 
 								<div class="s-text3 p-t-10 p-b-10">
-									Range: $<span id="value-lower">610</span> - $<span id="value-upper">980</span>
+									Rango: $<span id="value-lower">610</span> - $<span id="value-upper">980</span>
 								</div>
 							</div>
 						</div>
