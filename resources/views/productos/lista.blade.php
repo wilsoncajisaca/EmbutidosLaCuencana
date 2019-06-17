@@ -77,7 +77,7 @@
 						<!--  -->
 						<h4 class="m-text14 p-b-32">
 
-							$productos->titulos
+							<?php echo $productos; ?>
 						
 							Filtros
 						</h4>
