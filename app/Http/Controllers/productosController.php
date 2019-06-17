@@ -16,7 +16,7 @@ class productosController extends Controller
     public function index()
     {
         $categorias=Categoria::all();
-        return view ("productos.lista",compact("categorias"));
+        return view ("productos.lista",compact("categoria123"));
     }
 
     /**
