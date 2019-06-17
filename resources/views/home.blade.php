@@ -39,7 +39,7 @@
 
 	<!-- header -->
 
-	@include("header")
+	@include("layouts/header")
 
 	<!-- Slide1 -->
 	<section class="slide1">
@@ -1310,7 +1310,7 @@
 
 	<!-- Footer -->
 
-	@include("footer")
+	@include("layouts/footer")
 
 	<!-- Back to top -->
 	<div class="btn-back-to-top bg0-hov" id="myBtn">
