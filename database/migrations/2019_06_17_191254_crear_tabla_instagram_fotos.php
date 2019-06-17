@@ -15,7 +15,7 @@ class CrearTablaInstagramFotos extends Migration
     {
         Schema::table('instagrams', function (Blueprint $table) {
             
-            $table->bigIncrements('id');
+            $table->increments('id');
             $table->text('url');
             $table->timestamps();
 
