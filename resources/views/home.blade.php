@@ -362,7 +362,9 @@
 		<div class="flex-w">
 
 			<!-- Abre foreach -->
-			<?php foreach($instagramfotos as $fotos){ ?>
+			<?php $i=0; 
+			foreach($instagramfotos as $fotos){
+				if(++$i>4) break; ?>
 
 				<!-- Block4 -->
 				<div class="block4 wrap-pic-w">
