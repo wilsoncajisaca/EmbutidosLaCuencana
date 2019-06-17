@@ -61,15 +61,7 @@
 
 						<ul class="p-b-54">
 
-							@foreach($categorias as $categoria)
-
-							<li class="p-t-4">
-								<a href="{{$categoria->ruta}}" class="s-text13 active1">
-									{{$categoria->categoria}}
-								</a>
-							</li>
-
-							@endforeach
+							
 
 						</ul>
 
