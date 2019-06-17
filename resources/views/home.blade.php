@@ -106,6 +106,9 @@
 					<div class="tab-pane fade show active" id="new-articles" role="tabpanel">
 						<div class="row">
 
+						<!-- Abre foreach -->
+						<?php foreach($productos as $producto){?>
+
 							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 								<!-- Block2 -->
 								<div class="block2">
@@ -121,7 +124,7 @@
 											<div class="block2-btn-addcart w-size1 trans-0-4">
 												<!-- Button -->
 												<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-													Add to Cart
+													Añadir al carrito
 												</button>
 											</div>
 										</div>
@@ -129,15 +132,18 @@
 
 									<div class="block2-txt p-t-20">
 										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											Herschel supply co 25l
+											<?php echo $producto-> titulo; ?>
 										</a>
 
 										<span class="block2-price m-text6 p-r-5">
-											$75.00
+											<?php echo $producto-> precio; ?>
 										</span>
 									</div>
 								</div>
 							</div>
+
+						<!-- Cierro foreach -->
+						<?php } ?>
 
 						</div>
 					</div>
