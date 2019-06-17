@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Categoria;
+use App\Producto;
 
 class productosController extends Controller
 {
@@ -46,9 +47,10 @@ class productosController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function show($id)
     {
-        return view ("productos.producto_detail");
+        $producto=Producto::findOrFail($id);
+        return view ("productos.producto_detail",compact("producto"));
     }
 
     /**
