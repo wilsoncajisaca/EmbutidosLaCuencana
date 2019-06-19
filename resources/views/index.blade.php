@@ -37,7 +37,7 @@
 </head>
 <body class="animsition">
 
-	{{route('/header')}}
+	{{route('header.index')}}
 
 	<!-- header -->
 
