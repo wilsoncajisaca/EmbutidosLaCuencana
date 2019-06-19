@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Categoria;
 use App\Producto;
+use App\Bannerproducto;
 
 class productosController extends Controller
 {
@@ -18,11 +19,13 @@ class productosController extends Controller
     {
         $categorias=Categoria::all();
         $productos=Producto::all();
+        $banner=Bannerproducto::all();
         $totalProductos=Producto::all()->count();
         return view ("productos.lista",
         [
             'categorias'=>$categorias,
             'totalProductos'=>$totalProductos,
+            'banners'=>$banner,
             'productos'=>$productos
         ]
     );
