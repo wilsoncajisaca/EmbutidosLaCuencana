@@ -17,7 +17,7 @@ class blogController extends Controller
         $blogs = Articulosblog::orderBy('fecha','desc')->take(5)->get();
 
 
-        return view ("index",
+        return view ("blog.blog",
                          [
                              'Articulosblogs'=>$blogs
                          ]
