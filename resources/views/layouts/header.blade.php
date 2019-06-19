@@ -11,7 +11,7 @@
 					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
-				@foreach($bannerpromociones as $promocion)
+				@foreach($Bannerpromociones as $promocion)
 					<span class="topbar-child1">
 						{{$promocion -> descripcion}}
 					</span>

@@ -19,7 +19,7 @@ class headerController extends Controller
 
         return view ("layouts.header",
                          [
-                             'bannerpromociones'=>$promocionesbanner
+                             'Bannerpromociones'=>$promocionesbanner
                          ]
                     );
     }
