@@ -37,8 +37,6 @@
 </head>
 <body class="animsition">
 
-	{{route('header')}}
-
 	<!-- header -->
 
 	@include("layouts/header")
