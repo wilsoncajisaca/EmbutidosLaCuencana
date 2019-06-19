@@ -15,7 +15,7 @@ class headerController extends Controller
     public function index()
     {
 
-        $promocionesbanner = Bannerpromocion::orderBy('fecha','desc')->take(1)->get();
+        $promocionesbanner = Bannerpromocion::orderBy('fecha','created_at')->take(1)->get();
 
         return view ("layouts.header",
                          [
