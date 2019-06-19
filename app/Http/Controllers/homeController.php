@@ -20,7 +20,7 @@ class homeController extends Controller
 
         $slide=Slide::all();
         $producto=Producto::all();
-        $fotosIns = Linkinstagram::table()->skip(10)->take(5)->get();
+        $fotosIns = Linkinstagram::table('linkinstagrams')->skip(10)->take(5)->get();
         return view ("index",['slides'=>$slide, 'productos'=>$producto, 'instagramfotos'=>$fotosIns]);
     }
 
