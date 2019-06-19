@@ -39,7 +39,7 @@
 	@include("layouts/header")
 
 	<!-- Title Page -->
-	@php ($banners as $banner)
+	@php ($banner -> $banners)
 	<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url({{$banner->portada}});">
 		<h2 class="l-text2 t-center">
 			{{$banner->titulo}}
