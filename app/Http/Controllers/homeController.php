@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Slide;
 use App\Producto;
 use App\Linkinstagram;
-use App\DB;
+use Illuminate\Support\Facades\DB;
 
 class homeController extends Controller
 {
