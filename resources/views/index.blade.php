@@ -102,12 +102,12 @@
 				<!-- Tab panes -->
 				<div class="tab-content p-t-35">
 
-					<!-- - -->
+					<!-- Nuevos productos - -->
 					<div class="tab-pane fade show active" id="new-articles" role="tabpanel">
 						<div class="row">
 
 						<!-- Abre foreach -->
-						@foreach($productos as $producto)
+						@foreach($masrecientes as $masreciente)
 
 							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 								<!-- Block2 -->
@@ -132,11 +132,11 @@
 
 									<div class="block2-txt p-t-20">
 										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											{{$producto-> titulo}}
+											{{$masreciente-> titulo}}
 										</a>
 
 										<span class="block2-price m-text6 p-r-5">
-											{{$producto-> precio}}
+											{{$masreciente-> precio}}
 										</span>
 									</div>
 								</div>
@@ -148,7 +148,7 @@
 						</div>
 					</div>
 
-					<!-- - -->
+					<!--Mas vendidos - -->
 					<div class="tab-pane fade" id="best-seller" role="tabpanel">
 						<div class="row">
 
@@ -194,7 +194,7 @@
 						</div>
 					</div>
 
-					<!--  -->
+					<!-- Mejor calificados -->
 					<div class="tab-pane fade" id="top-rate" role="tabpanel">
 						<div class="row">
 
