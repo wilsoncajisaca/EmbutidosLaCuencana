@@ -53,7 +53,7 @@
 							
 							<!-- item blog -->
 							<div class="item-blog p-b-80">
-							<a href="{{route('blog.show', $blog->id)}}" class="item-blog-img pos-relative dis-block hov-img-zoom">
+							<a href="{{route('productos.show', $blog->id)}}" class="item-blog-img pos-relative dis-block hov-img-zoom">
 								<img src="{{$blog->portada}}" alt="IMG-BLOG">
 	
 									<span class="item-blog-date dis-block flex-c-m pos1 size17 bg4 s-text1">

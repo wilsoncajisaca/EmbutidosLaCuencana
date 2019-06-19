@@ -22,13 +22,27 @@ class productosController extends Controller
         $banner=Bannerproducto::take(1)->get();
         $totalProductos=Producto::all()->count();
         return view ("productos.lista",
-        [
-            'categorias'=>$categorias,
-            'totalProductos'=>$totalProductos,
-            'banners'=>$banner,
-            'productos'=>$productos
-        ]
-    );
+                        [
+                            'categorias'=>$categorias,
+                            'totalProductos'=>$totalProductos,
+                            'banners'=>$banner,
+                            'productos'=>$productos
+                        ]
+                    );
+    }
+
+    public function productosuno($catId)
+    {
+        $Productofind=Producto::where('categoria_id', $catId)
+        ->orderBy('fecha', 'desc')
+        ->take(10)
+        ->get();
+
+        return view ("productos.lista",
+                        [
+                            'productos'=>$Productofind
+                        ]
+                    );
     }
 
     /**
