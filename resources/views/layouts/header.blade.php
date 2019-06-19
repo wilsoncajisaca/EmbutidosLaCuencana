@@ -12,7 +12,9 @@
 				</div>
 
 				<span class="topbar-child1">
-					{{$Bannerpromociones -> descripcion}}
+					@foreach ($Bannerpromociones as $promocion)
+						{{$promocion -> descripcion}}
+					@endforeach
 				</span>
 
 				<div class="topbar-child2">
