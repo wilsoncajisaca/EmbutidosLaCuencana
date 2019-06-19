@@ -13,7 +13,6 @@ class blogController extends Controller
      */
     public function index()
     {
-        //
         return view ("blog.blog");
     }
 
@@ -44,7 +43,7 @@ class blogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function show($id)
     {
         return view("blogDetail");
     }
