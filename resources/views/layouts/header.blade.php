@@ -12,7 +12,7 @@
 				</div>
 
 					<span class="topbar-child1">
-						{{route('header.index') $Bannerpromociones->descripcion}}
+						{{route('header') $Bannerpromociones->descripcion}}
 					</span>
 				
 
