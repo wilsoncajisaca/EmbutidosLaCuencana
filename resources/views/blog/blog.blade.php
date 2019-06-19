@@ -108,7 +108,7 @@
 
 						<!-- Featured Products -->
 						<h4 class="m-text23 p-t-65 p-b-34">
-							Featured Products
+							Nuestros mejores productos
 						</h4>
 
 						<ul class="bgwhite">
