@@ -17,9 +17,10 @@ class homeController extends Controller
      */
     public function index()
     {
+
+        $fotosIns = $fotosIns->Linkinstagram->limit(5)->get(); 
         $slide=Slide::all();
         $producto=Producto::all();
-        $fotosIns=Linkinstagram::all();
         return view ("index",['slides'=>$slide, 'productos'=>$producto, 'instagramfotos'=>$fotosIns]);
     }
 
