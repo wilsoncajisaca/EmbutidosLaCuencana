@@ -367,7 +367,6 @@
 				<div class="block4 wrap-pic-w">
 					{{$fotos->url}}
 				</div>
-
 			@endforeach
 
 		</div>
