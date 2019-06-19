@@ -12,7 +12,9 @@
 				</div>
 
 				<span class="topbar-child1">
-					Descuentos en todos nuestros productos de hasta un -30%
+					@foreach($bannerpromociones as $promocion)
+						{{$promocion -> descripcion}}
+					@endforeach
 				</span>
 
 				<div class="topbar-child2">
