@@ -13,7 +13,7 @@
 
 				<span class="topbar-child1">
 					@foreach(App\Bannerpromocione::all() as $work)
-						<li><a href="{{route('header.index')}}">{{$work->descripcion}}</a></li>
+						{{$work->descripcion}}
 					@endforeach
 				</span>
 
