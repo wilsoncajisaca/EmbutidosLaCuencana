@@ -39,7 +39,7 @@
 					<nav class="menu">
 						<ul class="main_menu">
 							<li>
-								<a href="home">Hogar</a>
+								<a href="/">Hogar</a>
 							</li>
 
 							<li>
