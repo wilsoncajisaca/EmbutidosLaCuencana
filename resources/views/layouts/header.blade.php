@@ -11,11 +11,12 @@
 					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
-				<span class="topbar-child1">
-					@foreach($bannerpromociones as $promocion)
+				@foreach($bannerpromociones as $promocion)
+					<span class="topbar-child1">
 						{{$promocion -> descripcion}}
-					@endforeach
-				</span>
+					</span>
+				@endforeach
+				
 
 				<div class="topbar-child2">
 					<span class="topbar-email">
