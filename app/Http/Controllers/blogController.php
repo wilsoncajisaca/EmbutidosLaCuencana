@@ -53,7 +53,13 @@ class blogController extends Controller
      */
     public function show($id)
     {
-        return view("blogDetail");
+        $blogs = Articulosblog::find($id);
+
+        return view ("blog.blogDetail",
+                         [
+                             'Articulosblogs'=>$blogs
+                         ]
+                    );
     }
 
     /**
