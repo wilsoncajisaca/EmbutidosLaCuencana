@@ -11,10 +11,9 @@
 					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
-				{{Route::get('/header', 'headerController@index')}}
 				<span class="topbar-child1">
-					@foreach ($Bannerpromociones as $promocion)
-						{{$promocion -> descripcion}}
+					@foreach(App\Bannerpromocione::all() as $work)
+						<li><a href="{{route('/header.index', $work->id)}}">{{$work->descripcion}}</a></li>
 					@endforeach
 				</span>
 
