@@ -13,7 +13,14 @@ class blogController extends Controller
      */
     public function index()
     {
-        return view ("blog.blog");
+        $blogs = Articulosblog::orderBy('fecha','desc')->take(5)->get();
+
+
+        return view ("index",
+                         [
+                             'Articulosblogs'=>$blogs
+                         ]
+                    );
     }
 
     /**
