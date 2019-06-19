@@ -292,7 +292,7 @@
 								</a>
 							</h4>
 
-							<span class="s-text6">Publicado </span> <span class="s-text7">{{$blog->fecha}}</span>
+							<span class="s-text6">Publicado </span> <span class="s-text7">@php $date = date_create($blog->fecha); echo date_format($date, 'Y-m-d');</span>
 
 							<p class="s-text8 p-t-16">
 								{{$blog->descripcion}}
