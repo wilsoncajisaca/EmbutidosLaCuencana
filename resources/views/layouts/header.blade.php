@@ -11,12 +11,10 @@
 					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
-
-				@foreach(App\Bannerpromocione::orderBy('created_at','desc')->take(1)->get(); as $promocion)
-				<span class="topbar-child1">
-					{{route('headerController') $promocion->descripcion}}
-				</span>
-				@endforeach
+					<span class="topbar-child1">
+						{{route('header.index')}} {{$Bannerpromociones->descripcion}}
+					</span>
+				
 
 				<div class="topbar-child2">
 					<span class="topbar-email">
