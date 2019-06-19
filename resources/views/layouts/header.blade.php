@@ -11,10 +11,9 @@
 					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
-					<span class="topbar-child1">
-						{{route('header') $Bannerpromociones->descripcion}}
-					</span>
-				
+				<span class="topbar-child1">
+					{{route('/header') $Bannerpromociones -> descripcion}}
+				</span>
 
 				<div class="topbar-child2">
 					<span class="topbar-email">
