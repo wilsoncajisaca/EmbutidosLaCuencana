@@ -12,7 +12,7 @@
 				</div>
 
 				<span class="topbar-child1">
-					@foreach(App\Bannerpromocione::all() as $work)
+					@foreach(App\Bannerpromocione::orderBy('created_at','desc')->take(1)->get() as $work)
 						{{$work->descripcion}}
 					@endforeach
 				</span>
