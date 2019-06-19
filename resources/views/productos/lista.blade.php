@@ -118,16 +118,16 @@
 						<div class="flex-w">
 							<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
 								<select class="selection-2" name="sorting">
-									<option>Default Sorting</option>
-									<option>Popularity</option>
-									<option>Price: low to high</option>
-									<option>Price: high to low</option>
+									<option>Todos los productos</option>
+									<option>Populares</option>
+									<option>Precio: bajo a mas alto</option>
+									<option>Precio: alto a mas bajo</option>
 								</select>
 							</div>
 
 							<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
 								<select class="selection-2" name="sorting">
-									<option>Price</option>
+									<option>Precio</option>
 									<option>$0.00 - $50.00</option>
 									<option>$50.00 - $100.00</option>
 									<option>$100.00 - $150.00</option>
@@ -139,7 +139,7 @@
 						</div>
 
 						<span class="s-text8 p-t-5 p-b-5">
-							Showing 1–12 of 16 results
+							Mostrando 1–10 of {{$total}} resultados
 						</span>
 					</div>
 

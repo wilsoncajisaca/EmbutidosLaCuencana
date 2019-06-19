@@ -18,7 +18,14 @@ class productosController extends Controller
     {
         $categorias=Categoria::all();
         $productos=Producto::all();
-        return view ("productos.lista",['categorias'=>$categorias,'productos'=>$productos]);
+        $totalProductos=Producto::all()->count();
+        return view ("productos.lista",
+        [
+            'categorias'=>$categorias,
+            'totalProductos'=>$totalProductos,
+            'productos'=>$productos
+        ]
+    );
     }
 
     /**
