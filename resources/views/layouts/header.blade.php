@@ -11,7 +11,7 @@
 					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
-				{{Route::get('/', 'headerController@index')}}
+				{{Route::get('/header', 'headerController@index')}}
 				<span class="topbar-child1">
 					@foreach ($Bannerpromociones as $promocion)
 						{{$promocion -> descripcion}}
