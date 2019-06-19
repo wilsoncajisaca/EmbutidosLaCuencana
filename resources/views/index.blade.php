@@ -366,7 +366,7 @@
 			@foreach($instagramfotos as $fotos)
 				@if(++$i>4) 
 					@php(break)
-
+				@endif
 				<!-- Block4 -->
 				<div class="block4 wrap-pic-w">
 					{{$fotos->url}}
