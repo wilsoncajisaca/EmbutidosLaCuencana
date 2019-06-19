@@ -365,7 +365,7 @@
 			@foreach($instagramfotos as $fotos)
 				<!-- Block4 -->
 				<div class="block4 wrap-pic-w">
-					<?php echo $fotos->url; ?>
+					{{$fotos->url}}
 				</div>
 			@endforeach
 
