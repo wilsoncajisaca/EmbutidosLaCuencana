@@ -153,7 +153,7 @@
 						<div class="row">
 
 							<!-- Abre foreach -->
-							@foreach($productos as $producto)
+							@foreach($masvendidos as $masvendido)
 
 								<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 									<!-- Block2 -->
@@ -178,11 +178,11 @@
 
 										<div class="block2-txt p-t-20">
 											<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-												{{$producto-> titulo}}
+												{{$masvendido-> titulo}}
 											</a>
 
 											<span class="block2-price m-text6 p-r-5">
-												{{$producto-> precio}}
+												{{$masvendido-> precio}}
 											</span>
 										</div>
 									</div>
@@ -271,7 +271,7 @@
 		<div class="container">
 			<div class="sec-title p-b-52">
 				<h3 class="m-text5 t-center">
-					Our Blog
+					Nuestro Blog
 				</h3>
 			</div>
 
@@ -361,7 +361,7 @@
 
 		<div class="flex-w">
 
-			<!-- Abre foreach -->
+			<!-- Abre foreach Instagram -->
 			<?php foreach($instagramfotos as $fotos){?>
 
 				<!-- Block4 -->
@@ -369,6 +369,7 @@
 					<?php echo $fotos->url; ?>
 				</div>
 
+			<!-- Cierro foreach Instagram -->
 			<?php } ?>
 
 		</div>

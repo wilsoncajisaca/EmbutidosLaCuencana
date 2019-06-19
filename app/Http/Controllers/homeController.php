@@ -21,8 +21,9 @@ class homeController extends Controller
 
         $slide=Slide::all();
         $producto=Producto::all();
+        $masvendidos=Producto::orderBy('ventas','desc')->take(3)->get();
         $fotosIns = Linkinstagram::take(5)->get();
-        return view ("index",['slides'=>$slide, 'productos'=>$producto, 'instagramfotos'=>$fotosIns]);
+        return view ("index",['slides'=>$slide, 'productos'=>$producto, 'instagramfotos'=>$fotosIns, 'masvendidos'=>$masvendidos]);
     }
 
     /**
