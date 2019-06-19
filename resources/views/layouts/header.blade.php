@@ -12,8 +12,7 @@
 				</div>
 
 				<span class="topbar-child1">
-					@php ((new App\Controllers\headerController)->index())
-					@foreach($Bannerpromociones as $work)
+					@foreach(App\Bannerpromocione::all() as $work)
 						{{$work->descripcion}}
 					@endforeach
 				</span>
