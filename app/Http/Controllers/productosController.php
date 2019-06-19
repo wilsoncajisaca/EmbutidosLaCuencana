@@ -38,11 +38,7 @@ class productosController extends Controller
         ->take(10)
         ->get();
 
-        return view ("productos.lista",
-                        [
-                            'productos'=>$Productofind
-                        ]
-                    );
+        return view ("blog.blog", compact("Productofind"));
     }
 
     /**
