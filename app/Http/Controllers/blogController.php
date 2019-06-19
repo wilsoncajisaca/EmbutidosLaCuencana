@@ -53,13 +53,9 @@ class blogController extends Controller
      */
     public function show($id)
     {
-        $blogs = Articulosblog::find($id);
+        $blogs = Articulosblog::findOrFail($id);
 
-        return view ("blog.blogDetail",
-                         [
-                             'Articulosblogs'=>$blogs
-                         ]
-                    );
+        return view ("blog.blogDetail", compact("BlogArticulo"));
     }
 
     /**

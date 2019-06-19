@@ -60,21 +60,19 @@
 				<div class="col-md-8 col-lg-9 p-b-80">
 					<div class="p-r-50 p-r-0-lg">
 
-						@foreach ($Articulosblogs as $blogId)
-						
 							<div class="p-b-40">
 								<div class="blog-detail-img wrap-pic-w">
-									<img src="images/blog-04.jpg" alt="IMG-BLOG">
+									<img src="{{$BlogArticulo->portada}}" alt="IMG-BLOG">
 								</div>
 	
 								<div class="blog-detail-txt p-t-33">
 									<h4 class="p-b-11 m-text24">
-											{{$blogId->titulo}}
+											{{$BlogArticulo->titulo}}
 									</h4>
 	
 									<div class="s-text8 flex-w flex-m p-b-21">
 										<span>
-											@php $date = date_create($blogId->fecha); echo date_format($date, 'M d, Y'); @endphp
+												@php $date = date_create($BlogArticulo->fecha); echo date_format($date, 'M d, Y'); @endphp
 											<span class="m-l-3 m-r-6">|</span>
 										</span>
 	
@@ -85,7 +83,7 @@
 									</div>
 	
 									<p class="p-b-25">
-										{{$blogId->descripcion}}
+										{{$BlogArticulo->descripcion}}
 									</p>
 								</div>
 	
@@ -105,8 +103,6 @@
 									</div>
 								</div>
 							</div>
-
-						@endforeach
 
 						<!-- Leave a comment -->
 						<form class="leave-comment">
