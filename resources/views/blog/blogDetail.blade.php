@@ -64,7 +64,7 @@
 						
 							<div class="p-b-40">
 								<div class="blog-detail-img wrap-pic-w">
-									<img src="{{$blogId->portada}}" alt="IMG-BLOG">
+									<img src="images/blog-04.jpg" alt="IMG-BLOG">
 								</div>
 	
 								<div class="blog-detail-txt p-t-33">
