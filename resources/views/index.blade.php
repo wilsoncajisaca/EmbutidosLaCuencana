@@ -75,12 +75,12 @@
 		</div>
 	</section>
 
-	<!-- Our product -->
+	<!-- Nuestros productos -->
 	<section class="bgwhite p-t-45 p-b-58">
 		<div class="container">
 			<div class="sec-title p-b-22">
 				<h3 class="m-text5 t-center">
-					Our Products
+					Nuestros Productos
 				</h3>
 			</div>
 
@@ -107,7 +107,7 @@
 						<div class="row">
 
 						<!-- Abre foreach -->
-						<?php foreach($productos as $producto){?>
+						@foreach($productos as $producto)
 
 							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
 								<!-- Block2 -->
@@ -132,18 +132,18 @@
 
 									<div class="block2-txt p-t-20">
 										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											<?php echo $producto-> titulo; ?>
+											{{$producto-> titulo}}
 										</a>
 
 										<span class="block2-price m-text6 p-r-5">
-											<?php echo $producto-> precio; ?>
+											{{$producto-> precio}}
 										</span>
 									</div>
 								</div>
 							</div>
 
 						<!-- Cierro foreach -->
-						<?php } ?>
+						@endforeach
 
 						</div>
 					</div>
