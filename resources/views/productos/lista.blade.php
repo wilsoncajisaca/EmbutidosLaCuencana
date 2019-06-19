@@ -39,15 +39,16 @@
 	@include("layouts/header")
 
 	<!-- Title Page -->
-	@php ($banner => $banners)
-	<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url({{$banner->portada}});">
-		<h2 class="l-text2 t-center">
-			{{$banner->titulo}}
-		</h2>
-		<p class="m-text13 t-center">
-			{{$banner->descripcion}}
-		</p>
-	</section>
+	@foreach($banners as $banner)
+		<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url({{$banner->portada}});">
+			<h2 class="l-text2 t-center">
+				{{$banner->titulo}}
+			</h2>
+			<p class="m-text13 t-center">
+				{{$banner->descripcion}}
+			</p>
+		</section>
+	@endforeach
 
 
 	<!-- Content page -->

@@ -19,7 +19,7 @@ class productosController extends Controller
     {
         $categorias=Categoria::all();
         $productos=Producto::all();
-        $banner=Bannerproducto::all();
+        $banner=Bannerproducto::take(1)->get();
         $totalProductos=Producto::all()->count();
         return view ("productos.lista",
         [
