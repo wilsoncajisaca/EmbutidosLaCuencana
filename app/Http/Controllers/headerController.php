@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Bannerpromocion;
+use App\Bannerpromocione;
 
 class headerController extends Controller
 {
@@ -15,7 +15,7 @@ class headerController extends Controller
     public function index()
     {
 
-        $promocionesbanner = Bannerpromocion::orderBy('created_at','desc')->take(1)->get();
+        $promocionesbanner = Bannerpromocione::orderBy('created_at','desc')->take(1)->get();
 
         return view ("layouts.header",
                          [
