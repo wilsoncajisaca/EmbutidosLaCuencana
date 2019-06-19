@@ -53,7 +53,7 @@ class blogController extends Controller
      */
     public function show($id)
     {
-        $blogs = Articulosblog::findOrFail($id);
+        $BlogArticulo = Articulosblog::findOrFail($id);
 
         return view ("blog.blogDetail", compact("BlogArticulo"));
     }
