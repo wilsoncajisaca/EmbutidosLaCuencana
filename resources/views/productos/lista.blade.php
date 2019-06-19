@@ -139,7 +139,7 @@
 						</div>
 
 						<span class="s-text8 p-t-5 p-b-5">
-							Mostrando 1–10 of {{$total}} resultados
+							Mostrando 1–10 of {{$totalProductos}} resultados
 						</span>
 					</div>
 
