@@ -27,6 +27,8 @@ class homeController extends Controller
         $masrecientes = Producto::orderBy('fecha','desc')->take(3)->get();
         $fotosIns = Linkinstagram::take(5)->get();
 
+        (new headerController)->index(); 
+
         return view ("index",
                          [
                              'slides'=>$slide, 
