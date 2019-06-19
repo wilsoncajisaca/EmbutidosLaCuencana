@@ -148,14 +148,14 @@
 						<?php $i=0; 
 						foreach($productos as $producto)
 						{
-							if(++$i>2) break; ?>
+							if(++$i>10) break; ?>
 
 						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
 								<!-- Block2 -->
 							<div class="block2">
 									
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
-									<img src="images/item-02.jpg" alt="IMG-PRODUCT">
+									<img src="{{$producto->portada}}" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
 											<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
@@ -174,11 +174,11 @@
 
 									<div class="block2-txt p-t-20">
 										<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-											<?php echo $producto->titulo; ?>
+											{{$producto->titulo}};
 										</a>
 
 										<span class="block2-price m-text6 p-r-5">
-											<?php echo $producto->precio; ?>
+											{{$producto->precio}};
 									</span>
 								</div>
 							</div>
