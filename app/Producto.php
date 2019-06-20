@@ -11,6 +11,7 @@ class Producto extends Model
         return Producto::where('categoria_id','=',$id)
         ->get();
     }
+    
 
     //protected $fillable=['titulo'];
 
