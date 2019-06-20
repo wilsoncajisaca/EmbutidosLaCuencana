@@ -148,13 +148,14 @@
 					<div class="row">
 
 						<div id="productos" class="col-sm-12 col-md-6 col-lg-4 p-b-50">
-									<!-- Block2 -->
-							<?php $i=0; 
-							foreach(App\Producto::where('categoria_id', 2)
-												->orderBy('fecha', 'desc')
-												->get() as $producto)
-							{
-							if(++$i>10) break; ?>
+							<!-- Block2 -->
+
+								<?php $i=0; 
+								foreach(App\Producto::where('categoria_id', 2)
+													->orderBy('fecha', 'desc')
+													->get() as $producto)
+								{
+								if(++$i>10) break; ?>
 
 							<div class="block2">
 									
@@ -186,7 +187,6 @@
 									</span>
 								</div>
 							</div>
-						
 
 						<?php } ?>
 					</div>
