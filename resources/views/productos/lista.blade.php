@@ -68,7 +68,7 @@
 								<select id="select-categoria" class="selection-2" name="sorting">
 
 									@foreach ($categorias as $categoria)
-										<option>{{$categoria->categoria}}</option>
+										<option value="{{$categoria->id}}">{{$categoria->categoria}}</option>
 									@endforeach
 
 								</select>
