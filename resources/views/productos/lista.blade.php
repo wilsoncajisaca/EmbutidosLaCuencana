@@ -67,7 +67,7 @@
 						</h4>
 
 
-						{!! Form::select('categorias',$categorias[0]->categoria, null, ['id'=> 'categoria']) !!}
+						{!! Form::select('categorias',$categorias=>categoria, null, ['id'=> 'categoria']) !!}
 
 						<ul id="categoria" class="p-b-54">
 
