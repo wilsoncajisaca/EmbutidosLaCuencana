@@ -145,7 +145,7 @@
 					</div>
 
 					<!-- Product -->
-					<div  class="row">
+					<div id="productos"  class="row">
 							<!-- Block2 -->
 
 								<?php $i=0; 
@@ -155,7 +155,7 @@
 								{
 								if(++$i>10) break; ?>
 
-						<div id="productos" class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+						<div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
 							<div class="block2">
 									
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
