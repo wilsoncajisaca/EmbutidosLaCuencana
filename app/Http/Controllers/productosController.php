@@ -15,11 +15,11 @@ class productosController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($maximo)
     {
         $categorias=Categoria::all();
         $productos=Producto::all();
-        $banner=Bannerproducto::take(1)->get();
+        $banner=Bannerproducto::take($maximo)->get();
         $totalProductos=Producto::all()->count();
         return view ("productos.lista",
                         [
