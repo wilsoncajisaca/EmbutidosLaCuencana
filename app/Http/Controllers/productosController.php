@@ -60,6 +60,9 @@ class productosController extends Controller
      */
     public function show($id)
     {
+        
+        return view ("blog.blogDetail", compact("BlogArticulo"));
+
         $Productofind=Producto::where('categoria_id', $id)
         ->orderBy('fecha', 'desc')
         ->take(10)
