@@ -17,7 +17,18 @@ class productosController extends Controller
      */
     public function index()
     {
-        
+        $categorias=Categoria::all();
+        $productos=Producto::all();
+        $banner=Bannerproducto::take(5)->get();
+        $totalProductos=Producto::all()->count();
+        return view ("productos.lista",
+                        [
+                            'categorias'=>$categorias,
+                            'totalProductos'=>$totalProductos,
+                            'banners'=>$banner,
+                            'productos'=>$productos
+                        ]
+                    );
     }
 
     /**
@@ -54,46 +65,7 @@ class productosController extends Controller
      */
     public function show($id)
     {
-
-        if($id!=null){
-
-            $Productofind=Producto::where('categoria_id', $id)
-                ->orderBy('fecha', 'desc')
-                ->take(10)
-                ->get();
-            $categorias=Categoria::all();
-            $banner=Bannerproducto::take(5)
-                ->get();
-            $totalProductos=Producto::all()->count();
-            return view ("productos.lista",
-                        [
-                            'categorias'=>$categorias,
-                            'totalProductos'=>$totalProductos,
-                            'banners'=>$banner,
-                            'productos'=>$Productofind
-                        ]
-                    );
-
-        }else {
-            
-            $Productofind=Producto::where('categoria_id', $id)
-                ->orderBy('fecha', 'desc')
-                ->take(10)
-                ->get();
-            $categorias=Categoria::all();
-            $banner=Bannerproducto::take(5)
-                ->get();
-            $totalProductos=Producto::all()->count();
-            return view ("productos.lista",
-                        [
-                            'categorias'=>$categorias,
-                            'totalProductos'=>$totalProductos,
-                            'banners'=>$banner,
-                            'productos'=>$Productofind
-                        ]
-                    );
-
-        }
+        
     }
 
     /**
