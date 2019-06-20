@@ -1,5 +1,5 @@
 $(function(){
-    $('select-categoria').on('change', onSelectChange);
+    $('#select-categoria').on('change', onSelectChange);
 
 });
 
