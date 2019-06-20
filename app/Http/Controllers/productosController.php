@@ -15,7 +15,7 @@ class productosController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($maximo)
+    public function index()
     {
         $categorias=Categoria::all();
         $productos=Producto::all();
@@ -72,6 +72,7 @@ class productosController extends Controller
         ->get();
 
         return view ("productos.lista", compact("Productofind"));
+
     }
 
     /**
