@@ -41,6 +41,11 @@ class productosController extends Controller
         //
     }
 
+    public function detalle($id)
+    {
+        //
+    }
+
     /**
      * Store a newly created resource in storage.
      *
