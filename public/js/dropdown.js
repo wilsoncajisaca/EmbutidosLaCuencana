@@ -1,9 +1,5 @@
-$(function(){
-    $('#select-categoria').on('change', onSelectChange);
-
+$("#categoria").change(function(event){
+    $.get("categoria/"+event.target.value+"", function(response,producto){
+        console.log(response);
+    });
 });
-
-function onSelectChange () {
-    var project_id = $(this).val();
-    alert(project_id);
-}
