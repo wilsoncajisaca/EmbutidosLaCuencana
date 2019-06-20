@@ -1,5 +1,5 @@
 $("#producto").change(function(event){
-    $.get("cetegoria/"+event.target.value+"",function(response,producto){
+    $.get("categoria/"+event.target.value+"",function(response,producto){
         console.log(response);
     });
 });
