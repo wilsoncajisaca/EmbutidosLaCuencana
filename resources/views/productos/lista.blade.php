@@ -151,7 +151,7 @@
 							<!-- Block2 -->
 
 								<?php $i=0; 
-								foreach(App\Producto::where('categoria_id', 2)
+								foreach(App\Producto::where('categoria_id', 1)
 													->orderBy('fecha', 'desc')
 													->get() as $producto)
 								{
@@ -174,7 +174,7 @@
 													Añadir al carrito
 												</button>
 											</div>
-										</div>
+									</div>
 									</div>
 
 									<div class="block2-txt p-t-20">
@@ -184,12 +184,12 @@
 
 										<span class="block2-price m-text6 p-r-5">
 											{{$producto->precio}}
-									</span>
+										</span>
 								</div>
 							</div>
 
-						<?php } ?>
-					</div>
+							<?php } ?>
+						</div>
 
 					</div>
 
