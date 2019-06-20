@@ -1,8 +1,8 @@
-$("#select-categoria").change(event => {
+$("#filter").change(event => {
 
-    $("#filter").change(filter => {
+    var categoria=document.getElementById("select-categoria").value;
 
-        $.get(`catprodfilter/${event.target.value}/${filter.target.value}`, function(res,sta){
+        $.get(`catprodfilter/${event.target.value}/filtro/${categoria}`, function(res,sta){
 
             $("#productos").empty();
 
@@ -42,6 +42,4 @@ $("#select-categoria").change(event => {
                 </div>`)
             });
         });
-
-    });
 });
