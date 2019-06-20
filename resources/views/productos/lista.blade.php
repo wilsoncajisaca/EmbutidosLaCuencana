@@ -66,6 +66,8 @@
 							Categories
 						</h4>
 
+						{!! Form::select('categorias',$categorias, null, ['id'=> 'categoria']) !!}
+
 						<ul id="categoria" class="p-b-54">
 
 							@foreach($categorias as $categoria)
