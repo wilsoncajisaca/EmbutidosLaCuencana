@@ -82,7 +82,7 @@
 									<li>
 										<a href="#">Perfil</a>
 										<ul class="sub_menu">
-											<li><a href="#" data-toggle="modal" data-target="#miModal">Ingresar</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#ingresar">Ingresar</a></li>
 											<li><a href="#" data-toggle="modal" data-target="#miModal">Crea una cuenta</a></li>
 										</ul>
 									</li>
@@ -173,7 +173,7 @@
 			</div>
 		</div>
 
-			<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal fade" id="ingresar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
