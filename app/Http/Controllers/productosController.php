@@ -67,11 +67,21 @@ class productosController extends Controller
     {
 
         $Productofind=Producto::where('categoria_id', $id)
-        ->orderBy('fecha', 'desc')
-        ->take(10)
-        ->get();
-
-        return view ("productos.lista", compact("Productofind"));
+            ->orderBy('fecha', 'desc')
+            ->take(10)
+            ->get();
+        $categorias=Categoria::all();
+        $banner=Bannerproducto::take(5)
+            ->get();
+        $totalProductos=Producto::all()->count();
+        return view ("productos.lista",
+                        [
+                            'categorias'=>$categorias,
+                            'totalProductos'=>$totalProductos,
+                            'banners'=>$banner,
+                            'productos'=>$Productofind
+                        ]
+                    );
 
     }
 
