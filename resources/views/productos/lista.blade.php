@@ -66,21 +66,7 @@
 							Categories
 						</h4>
 
-						{!! Form::select('categorias',$categorias, null, ['id'=> 'categoria']) !!}
-
-						<ul id="categoria" class="p-b-54">
-
-							@foreach($categorias as $categoria)
-
-							<li class="p-t-4">
-								<a href="#" class="s-text13 active1">
-									{{$categoria->categoria}}
-								</a>
-							</li>
-
-							@endforeach
-
-						</ul>
+						{!! Form::select('categorias',$categorias->titulo, null, ['id'=> 'categoria']) !!}
 
 						<!--  -->
 						<h4 class="m-text14 p-b-32">
