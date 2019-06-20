@@ -67,7 +67,7 @@
 							@foreach($categorias as $categoria)
 
 							<li class="p-t-4">
-								<a href="detalle_producto/{{$categoria->categoria_id)}}" class="s-text13 active1">
+								<a href="detalle_producto/{{$categoria->categoria_id}}" class="s-text13 active1">
 									{{$categoria->categoria}}
 								</a>
 							</li>
