@@ -290,9 +290,9 @@
 	    });
 	</script>
 <!--===============================================================================================-->
-{{!! Html::script('js/jquery-2.1.4.js') !!}}
-{{!! Html::script('js/dropdown.js') !!}}
 	<script src="js/main.js"></script>
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/dropdown.js"></script>
 
 </body>
 </html>
