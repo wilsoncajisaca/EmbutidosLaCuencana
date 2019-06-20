@@ -64,7 +64,7 @@
 
 						<ul class="p-b-54">
 
-							@foreach($Productofind as $categoria)
+							@foreach($categorias as $categoria)
 
 							<li class="p-t-4">
 								<a href="{{route('productos.show', $categoria->categoria_id)}}" class="s-text13 active1">
