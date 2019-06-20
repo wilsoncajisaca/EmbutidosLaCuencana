@@ -66,12 +66,12 @@
 							Categories
 						</h4>
 
-						<ul class="p-b-54">
+						<ul id="categoria" class="p-b-54">
 
 							@foreach($categorias as $categoria)
 
 							<li class="p-t-4">
-								<a id="categoria" href="#" class="s-text13 active1">
+								<a href="#" class="s-text13 active1">
 									{{$categoria->categoria}}
 								</a>
 							</li>
