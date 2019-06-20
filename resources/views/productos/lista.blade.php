@@ -69,6 +69,7 @@
 						<div class="flex-w">
 							<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
 								<select id="categoria" class="selection-2" name="sorting">
+									
 									@foreach ($categorias as $categoria)
 										<option>{{$categoria->categoria}}</option>
 									@endforeach
