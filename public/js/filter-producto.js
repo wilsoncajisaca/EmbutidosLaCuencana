@@ -1,4 +1,4 @@
-$("#filter").change(event => {
+$("#select-categoria").change(event => {
 
     $("#filter").change(filter => {
 
