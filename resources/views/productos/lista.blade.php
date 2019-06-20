@@ -66,22 +66,16 @@
 							Categories
 						</h4>
 
+						<div class="flex-w">
+							<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
+								<select id="categoria" class="selection-2" name="sorting">
+									@foreach ($categorias as $categoria)
+										<option>{{$categoria->categoria}}</option>
+									@endforeach
 
-						{!! Form::select('categorias', $categorias, null, ['id'=> 'categoria']) !!}
-
-						<ul id="categoria" class="p-b-54">
-
-							@foreach($categorias as $categoria)
-
-							<li class="p-t-4">
-								<a href="#" class="s-text13 active1">
-									{{$categoria->categoria}}
-								</a>
-							</li>
-
-							@endforeach
-
-						</ul>
+								</select>
+							</div>
+						</div>
 
 						<!--  -->
 						<h4 class="m-text14 p-b-32">
