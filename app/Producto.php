@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Producto extends Model
 {
 
+
+    //protected $fillable=['titulo'];
+
     /*public function producto(){
         return $this->hasOne("App\Categoria");
     }*/
