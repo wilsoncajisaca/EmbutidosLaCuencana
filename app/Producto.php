@@ -7,17 +7,32 @@ use Illuminate\Database\Eloquent\Model;
 class Producto extends Model
 {
 
-
-    /*<li> <button style="background-color: transparent" data-toggle="modal" data-target="#miModal" >Entrar</button></li>
-											<li> <button style="background-color: transparent" data-toggle="modal" data-target="#miModal" >Registrarme</button></li>*/
-
-
-    public static function productos($id){
+    public static function productosCat($id){
         return Producto::where('categoria_id',$id)
         ->get();
     }
     
+    public static function productosFilter($idCat, $filtro){
 
+        if($filtro==1){
+            return Producto::where('categoria_id',$id)
+            ->orderBy('precio','desc')
+            ->get();
+        }elseif ($filtro==2) {
+            return Producto::where('categoria_id',$id)
+            ->orderBy('precio','desc')
+            ->get();
+        }elseif ($filtro==3) {
+            return Producto::where('categoria_id',$id)
+            ->orderBy('precio','desc')
+            ->get();
+        }elseif ($filtro==4) {
+            return Producto::where('categoria_id',$id)
+            ->orderBy('precio','asc')
+            ->get();
+        }
+
+    }
     //protected $fillable=['titulo'];
 
     /*public function producto(){

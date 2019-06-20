@@ -31,11 +31,21 @@ class productosController extends Controller
                     );
     }
 
-    public function getProductos(Request $request, $id)
+    public function getProdCat(Request $request, $id)
     {
         if($request->ajax()){
 
-            $productos=Producto::productos($id);
+            $productos=Producto::productosCat($id);
+
+            return response()->json($productos);
+        }
+    }
+
+    public function productosFiltros(Request $request, $idCat, $filtro)
+    {
+        if($request->ajax()){
+
+            $productos=Producto::productosFilter($id, $filtro);
 
             return response()->json($productos);
         }

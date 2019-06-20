@@ -118,11 +118,11 @@
 					<div class="flex-sb-m flex-w p-b-35">
 						<div class="flex-w">
 							<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
-								<select class="selection-2" name="sorting">
-									<option>Todos los productos</option>
-									<option>Populares</option>
-									<option>Precio: bajo a mas alto</option>
-									<option>Precio: alto a mas bajo</option>
+								<select id="filter" class="selection-2" name="sorting">
+									<option value="1">Todos los productos</option>
+									<option value="2">Populares</option>
+									<option value="3">Precio: bajo a mas alto</option>
+									<option value="4">Precio: alto a mas bajo</option>
 								</select>
 							</div>
 
@@ -292,6 +292,7 @@
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 	<script src="js/dropdown.js"></script>
+	<script src="js/filter-producto.js"></script>
 
 </body>
 </html>
