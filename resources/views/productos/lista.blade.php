@@ -67,7 +67,7 @@
 							@foreach($categorias as $categoria)
 
 							<li class="p-t-4">
-								<a href="{{route('productos.show', $categoria->categoria_id)}}" class="s-text13 active1">
+								<a href="{{route('productos.show', $categoria->id)}}" class="s-text13 active1">
 									{{$categoria->categoria}}
 								</a>
 							</li>
