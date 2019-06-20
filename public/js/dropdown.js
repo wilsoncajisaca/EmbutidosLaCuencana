@@ -3,7 +3,7 @@ $("#select-categoria").change(event => {
         $("#productos").empty();
         res.forEach(element => {
             $("#productos").append(`
-            
+            <div class="col-sm-12 col-md-6 col-lg-4 p-b-50">
             <div class="block2">
 									
                 <div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
@@ -32,6 +32,7 @@ $("#select-categoria").change(event => {
                                 <span class="block2-price m-text6 p-r-5">
                                     ${element.precio}
                             </span>
+                    </div>
                 </div>
             </div>`)
         });
