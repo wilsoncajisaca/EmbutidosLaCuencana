@@ -4,9 +4,6 @@
 	<title>Product</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	{{!! Html::script('js/jquery-2.1.4.js') !!}}
-	{{!! Html::script('js/dropdown.js') !!}}
 
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
@@ -69,7 +66,7 @@
 						<div class="flex-w">
 							<div class="rs2-select2 bo4 of-hidden w-size12 m-t-5 m-b-5 m-r-10">
 								<select id="categoria" class="selection-2" name="sorting">
-									
+
 									@foreach ($categorias as $categoria)
 										<option>{{$categoria->categoria}}</option>
 									@endforeach
@@ -293,6 +290,8 @@
 	    });
 	</script>
 <!--===============================================================================================-->
+{{!! Html::script('js/jquery-2.1.4.js') !!}}
+{{!! Html::script('js/dropdown.js') !!}}
 	<script src="js/main.js"></script>
 
 </body>
