@@ -8,7 +8,7 @@ class Producto extends Model
 {
 
     public static function productos($id){
-        return Producto::where('categoria_id','=',$id)
+        return Producto::where('categoria_id',$id)
         ->get();
     }
     
