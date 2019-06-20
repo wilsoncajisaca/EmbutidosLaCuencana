@@ -31,16 +31,6 @@ class productosController extends Controller
                     );
     }
 
-    public function productosuno($catId)
-    {
-        $Productofind=Producto::where('categoria_id', $catId)
-        ->orderBy('fecha', 'desc')
-        ->take(10)
-        ->get();
-
-        return view ("blog.blog", compact("Productofind"));
-    }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -57,9 +47,14 @@ class productosController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store($id)
     {
-        //
+        $Productofind=Producto::where('categoria_id', $id)
+        ->orderBy('fecha', 'desc')
+        ->take(10)
+        ->get();
+
+        return view ("blog.blog", compact("Productofind"));
     }
 
     /**
