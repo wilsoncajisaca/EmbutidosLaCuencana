@@ -148,7 +148,9 @@
 					<!-- Product -->
 					<div class="row">
 						<?php $i=0; 
-						foreach($productos as $producto)
+						foreach(App\Producto::where('categoria_id', 2)
+											->orderBy('fecha', 'desc')
+											->get() as $producto)
 						{
 							if(++$i>10) break; ?>
 
