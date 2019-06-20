@@ -31,17 +31,23 @@ class productosController extends Controller
                     );
     }
 
+    public function getProductos(Request $request, $id)
+    {
+        if($request->ajax()){
+
+            $productos=Producto::productos($id);
+
+            return response()->json($productos);
+        }
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function create()
-    {
-        //
-    }
-
-    public function detalle($id)
     {
         //
     }
@@ -65,7 +71,7 @@ class productosController extends Controller
      */
     public function show($id)
     {
-        
+
         $Productofind=Producto::where('categoria_id', $id)
         ->orderBy('fecha', 'desc')
         ->take(10)

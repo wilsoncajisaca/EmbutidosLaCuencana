@@ -4,6 +4,10 @@
 	<title>Product</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	{{!! Html::script('js/jquery-2.1.4.js') !!}}
+	{{!! Html::script('js/dropdown.js') !!}}
+
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
 <!--===============================================================================================-->
