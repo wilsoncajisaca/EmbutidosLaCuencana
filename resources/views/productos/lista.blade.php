@@ -66,7 +66,7 @@
 							Categories
 						</h4>
 
-						{!! Form::select('categorias',$categorias->titulo, null, ['id'=> 'categoria']) !!}
+						{!! Form::select('categorias',$categorias->categoria, null, ['id'=> 'categoria']) !!}
 
 						<!--  -->
 						<h4 class="m-text14 p-b-32">
