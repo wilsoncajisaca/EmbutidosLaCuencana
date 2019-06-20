@@ -47,14 +47,9 @@ class productosController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store($id)
+    public function store(Request $request)
     {
-        $Productofind=Producto::where('categoria_id', $id)
-        ->orderBy('fecha', 'desc')
-        ->take(10)
-        ->get();
 
-        return view ("blog.blog", compact("Productofind"));
     }
 
     /**
@@ -65,8 +60,12 @@ class productosController extends Controller
      */
     public function show($id)
     {
-        $producto=Producto::findOrFail($id);
-        return view ("productos.producto_detail",compact("producto"));
+        $Productofind=Producto::where('categoria_id', $id)
+        ->orderBy('fecha', 'desc')
+        ->take(10)
+        ->get();
+
+        return view ("productos.lista", compact("Productofind"));
     }
 
     /**

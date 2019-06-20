@@ -64,10 +64,10 @@
 
 						<ul class="p-b-54">
 
-							@foreach($categorias as $categoria)
+							@foreach($Productofind as $categoria)
 
 							<li class="p-t-4">
-								<a href="{{route('productos.store', $categoria->categoria_id)}}" class="s-text13 active1">
+								<a href="{{route('productos.show', $categoria->categoria_id)}}" class="s-text13 active1">
 									{{$categoria->categoria}}
 								</a>
 							</li>
