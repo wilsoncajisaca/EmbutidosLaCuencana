@@ -82,8 +82,8 @@
 									<li>
 										<a href="#">Perfil</a>
 										<ul class="sub_menu">
-											<li><a data-toggle="modal" data-target="#miModal">Ingresar</a></li>
-											<li><a data-toggle="modal" data-target="#miModal">Crea una cuenta</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#miModal">Ingresar</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#miModal">Crea una cuenta</a></li>
 										</ul>
 									</li>
 								</ul>
