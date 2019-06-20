@@ -147,15 +147,15 @@
 					<!-- Product -->
 					<div class="row">
 
-						<?php $i=0; 
-						foreach(App\Producto::where('categoria_id', 2)
-											->orderBy('fecha', 'desc')
-											->get() as $producto)
-						{
+						<div id="productos" class="col-sm-12 col-md-6 col-lg-4 p-b-50">
+									<!-- Block2 -->
+							<?php $i=0; 
+							foreach(App\Producto::where('categoria_id', 2)
+												->orderBy('fecha', 'desc')
+												->get() as $producto)
+							{
 							if(++$i>10) break; ?>
 
-						<div id="productos" class="col-sm-12 col-md-6 col-lg-4 p-b-50">
-								<!-- Block2 -->
 							<div class="block2">
 									
 								<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
@@ -186,9 +186,10 @@
 									</span>
 								</div>
 							</div>
-						</div>
+						
 
 						<?php } ?>
+					</div>
 
 					</div>
 
