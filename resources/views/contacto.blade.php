@@ -33,7 +33,7 @@
 </head>
 <body class="animsition">
 
-    @include("header")
+    @include("layouts/header")
 
 	<!-- Title Page -->
 	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(images/heading-pages-06.jpg);">
@@ -84,7 +84,7 @@
 		</div>
 	</section>
 
-    @include("footer")
+    @include("layouts/footer")
 
 	<!-- Back to top -->
 	<div class="btn-back-to-top bg0-hov" id="myBtn">
