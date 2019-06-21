@@ -17,5 +17,3 @@ Route::get('/contactanos', function(){
 });
 
 Auth::routes();
-
-Route::resource('/home', 'indexController');
