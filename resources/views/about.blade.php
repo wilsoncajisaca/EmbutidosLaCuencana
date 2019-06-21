@@ -48,13 +48,13 @@
 			<div class="row">
 				<div class="col-md-4 p-b-30">
 					<div class="hov-img-zoom">
-						<img src="images/banner-14.jpg" alt="IMG-ABOUT">
+						<img src="images/nosotros.jpg" alt="IMG-ABOUT">
 					</div>
 				</div>
 
 				<div class="col-md-8 p-b-30">
 					<h3 class="m-text26 p-t-15 p-b-16">
-						Our story
+						Nuestra Historia
 					</h3>
 
 					<p class="p-b-28">
@@ -67,7 +67,7 @@
 						</p>
 
 						<span class="s-text7">
-							- Steve Job’s
+							- Fundador de embutidos la Cuencana
 						</span>
 					</div>
 				</div>
