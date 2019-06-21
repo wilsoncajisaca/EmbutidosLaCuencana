@@ -21,7 +21,7 @@
 					@if (Route::has('login'))
 						@auth
 							<span class="topbar-email">
-									{{ Auth::user()->name }}
+									Bienvenido {{ Auth::user()->name }}
 							</span>
 					@else
 							<span class="topbar-email">
@@ -89,7 +89,7 @@
 												<li>
 													<a href="#">Perfil</a>
 													<ul class="sub_menu">
-													<li><a href="/logout">Ingresar</a></li>
+													<li><a href="/logout">Salir</a></li>
 													</ul>
 												</li>
 											</ul>
