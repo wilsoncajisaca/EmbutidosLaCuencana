@@ -18,4 +18,4 @@ Route::get('/contactanos', function(){
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'indexController')->name('home');
