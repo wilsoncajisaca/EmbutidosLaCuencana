@@ -9,6 +9,7 @@ use App\Slide;
 use App\Producto;
 use App\Linkinstagram;
 use App\Articulosblog;
+use App\User;
 
 class indexController extends Controller
 {
@@ -20,7 +21,7 @@ class indexController extends Controller
     public function index(Request $request)
     {
 
-        $request->user()->authorizeRoles('user');
+        $request->User()->authorizeRoles('user');
 
         $slide = Slide::all();
         $producto = Producto::all();
