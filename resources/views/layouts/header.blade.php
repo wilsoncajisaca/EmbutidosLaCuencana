@@ -14,7 +14,7 @@
 						@auth
 						<span class="topbar-child1">
 								@foreach(App\Bannerpromocione::orderBy('created_at','desc')->take(1)->get() as $promocion)
-									{{$promocion->descripcion}}
+									<?php echo $promocion->descripcion; ?>
 								@endforeach
 						</span>
 				@else
