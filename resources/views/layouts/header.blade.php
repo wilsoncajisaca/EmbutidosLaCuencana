@@ -43,11 +43,9 @@
 							<li>
 								<a href="productos">Categorias</a>
 								<ul class="sub_menu">
-									<li><a href="#">Carne de Ternero</a></li>
-									<li><a href="#">Carne de Porcino</a></li>
-									<li><a href="#">Carne de Cordero</a></li>
-									<li><a href="#">Vino</a></li>
-									<li><a href="#">Varios</a></li>
+									@foreach (App\Categoria::all() as $categoria)
+										<li><a href="#">{{$categoria->titulo}}</a></li>
+									@endforeach
 								</ul>
 							</li>
 
