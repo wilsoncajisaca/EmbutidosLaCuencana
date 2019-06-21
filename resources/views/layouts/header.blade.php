@@ -18,7 +18,7 @@
 
 				<div class="topbar-child2">
 
-					@if (Route:has('login'))
+					@if (Route::has('login'))
 					
 						<span class="topbar-email">
 							@auth
