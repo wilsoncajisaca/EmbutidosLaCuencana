@@ -31,10 +31,6 @@
 						</span>
 					@endif
 
-					<span class="topbar-email">
-						{{ Auth::user()->name }}
-					</span>
-
 				</div>
 			</div>
 
