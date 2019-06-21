@@ -18,7 +18,7 @@
 
 				<div class="topbar-child2">
 					<span class="topbar-email">
-						Wilson Cajisaca
+						{{ Auth::user()->name }}
 					</span>
 
 					<div class="topbar-language rs1-select2">
