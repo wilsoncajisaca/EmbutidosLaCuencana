@@ -2,7 +2,7 @@ $("#filter").change(event => {
 
     var categoria=document.getElementById("select-categoria").value;
 
-        $.get(`catprodfilter/${event.target.value}/filtro/${categoria}`, function(res,sta){
+        $.get(`catprodfilter/${categoria}/filtro/${event.target.value}`, function(res,sta){
 
             $("#productos").empty();
 
