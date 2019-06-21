@@ -36,7 +36,7 @@
     @include("layouts/header")
 
 	<!-- Title Page -->
-	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(images/banner_contactanos.jpg);">
+	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(images/banner_nosotros.jpg);">
 		<h2 class="l-text2 t-center">
 			Quienes somos
 		</h2>
