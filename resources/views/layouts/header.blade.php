@@ -88,6 +88,9 @@
 											<ul class="main_menu">
 												<li>
 													<a href="#">Perfil</a>
+													<ul class="sub_menu">
+													<li><a href="/logout">Ingresar</a></li>
+													</ul>
 												</li>
 											</ul>
 										</nav>

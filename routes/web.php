@@ -17,4 +17,6 @@ Route::get('/contactanos', function(){
     return view("contacto");
 });
 
+Route::get('/logout', 'LoginController@logout');
+
 Auth::routes();
