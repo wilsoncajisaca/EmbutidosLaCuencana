@@ -34,6 +34,6 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-        $this->redirectTo = route ('/');
+        $this->redirectTo('guest')->except('logout');
     }
 }
