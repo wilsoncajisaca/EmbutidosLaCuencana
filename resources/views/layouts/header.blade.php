@@ -17,9 +17,24 @@
 				</span>
 
 				<div class="topbar-child2">
+
+					@if (Route:has('login'))
+					
+						<span class="topbar-email">
+							@auth
+								{{ Auth::user()->name }}
+							@endauth
+						</span>
+					@else
+						<span class="topbar-email">
+							Invitado
+						</span>
+					@endif
+
 					<span class="topbar-email">
 						{{ Auth::user()->name }}
 					</span>
+
 				</div>
 			</div>
 
