@@ -41,7 +41,7 @@
 							</li>
 
 							<li>
-								<a href="productos">Categorias</a>
+								<a href="productos">Productos</a>
 							</li>
 
 							<li>
@@ -409,7 +409,7 @@
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="productos">Categorias</a>
+						<a href="productos">Productos</a>
 					</li>
 
 					<li class="item-menu-mobile">
