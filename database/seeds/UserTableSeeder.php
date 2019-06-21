@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Role;
-use User;
+use App\Role;
+use App\User;
 
 class UserTableSeeder extends Seeder
 {
