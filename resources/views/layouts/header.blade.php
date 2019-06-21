@@ -10,11 +10,19 @@
 					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
-				<span class="topbar-child1">
-					@foreach(App\Bannerpromocione::orderBy('created_at','desc')->take(1)->get() as $promocion)
-						{{$promocion->descripcion}}
-					@endforeach
-				</span>
+				@if (Route::has('login'))
+						@auth
+							<span class="topbar-email">
+									Registrate para obtener descuentos de hasta un -60% en tus primeras compras.
+							</span>
+					@else
+						<span class="topbar-child1">
+							@foreach(App\Bannerpromocione::orderBy('created_at','desc')->take(1)->get() as $promocion)
+								{{$promocion->descripcion}}
+							@endforeach
+						</span>
+						@endauth
+					@endif
 
 				<div class="topbar-child2">
 
@@ -25,7 +33,7 @@
 							</span>
 					@else
 							<span class="topbar-email">
-								Invitado
+								Estas como Invitado
 							</span>
 						@endauth
 					@endif
