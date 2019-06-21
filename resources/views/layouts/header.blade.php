@@ -12,24 +12,15 @@
 
 				@if (Route::has('login'))
 						@auth
-							<span class="topbar-child1">
-									@foreach(App\Bannerpromocione::orderBy('created_at','desc')->take(1)->get() as $promocion)
-										{{$promocion->descripcion}}
-									@endforeach
-							</span>
+						<span class="topbar-child1">
+								@foreach(App\Bannerpromocione::orderBy('created_at','desc')->take(1)->get() as $promocion)
+									{{$promocion->descripcion}}
+								@endforeach
+						</span>
 				@else
-							<!-- top noti -->
-							<div class="flex-c-m size22 bg0 s-text21 pos-relative">
-									Registrate para obtener descuentos de hasta un -60% en tus primeras compras
-										<a href="#" class="s-text22 hov6 p-l-5">
-											Registrate Ahora!
-										</a>
-
-									<button class="flex-c-m pos2 size23 colorwhite eff3 trans-0-4 btn-romove-top-noti">
-										<i class="fa fa-remove fs-13" aria-hidden="true"></i>
-									</button>
-
-							</div>
+						<span class="topbar-child1">
+							Registrate para obtener descuentos de hasta un -60% en tus primeras compras
+						</span>
 						@endauth
 				@endif
 
