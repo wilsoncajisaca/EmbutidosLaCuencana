@@ -24,22 +24,6 @@
 						@endauth
 				@endif
 
-				
-
-				<div class="topbar-child2">
-
-					@if (Route::has('login'))
-						@auth
-							<span class="topbar-email">
-									Bienvenido {{ Auth::user()->name }}
-							</span>
-					@else
-							<span class="topbar-email">
-								Estas como Invitado
-							</span>
-						@endauth
-					@endif
-				</div>
 			</div>
 
 			<div class="wrap_header">
@@ -88,7 +72,6 @@
 					<a href="#" class="header-wrapicon1 dis-block">
 						<img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
-					
 
 					@if (Route::has('login'))
 						@auth
@@ -97,7 +80,7 @@
 										<nav class="menu">
 											<ul class="main_menu">
 												<li>
-													<a href="#">Perfil</a>
+													<a href="#">{{ Auth::user()->name }}</a>
 													<ul class="sub_menu">
 													<li><a href="/logout">Salir</a></li>
 													</ul>
@@ -111,7 +94,7 @@
 							<nav class="menu">
 								<ul class="main_menu">
 									<li>
-										<a href="#">Perfil</a>
+										<a href="#">Invitado</a>
 										<ul class="sub_menu">
 											<li><a href="#" data-toggle="modal" data-target="#ingresar">Ingresar</a></li>
 											<li><a href="#" data-toggle="modal" data-target="#registro">Crea una cuenta</a></li>
