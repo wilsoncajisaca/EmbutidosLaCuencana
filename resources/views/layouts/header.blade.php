@@ -12,17 +12,19 @@
 
 				@if (Route::has('login'))
 						@auth
-							<span class="topbar-email">
-									Registrate para obtener descuentos de hasta un -60% en tus primeras compras.
-							</span>
-					@else
 						<span class="topbar-child1">
-							@foreach(App\Bannerpromocione::orderBy('created_at','desc')->take(1)->get() as $promocion)
-								{{$promocion->descripcion}}
-							@endforeach
+								@foreach(App\Bannerpromocione::orderBy('created_at','desc')->take(1)->get() as $promocion)
+									{{$promocion->descripcion}}
+								@endforeach
+						</span>
+				@else
+						<span class="topbar-child1">
+							Registrate para obtener descuentos de hasta un -60% en tus primeras compras
 						</span>
 						@endauth
-					@endif
+				@endif
+
+				
 
 				<div class="topbar-child2">
 
