@@ -89,7 +89,7 @@
 												<li>
 													<a href="#">Perfil</a>
 													<ul class="sub_menu">
-													<li><a href="/logout">Ingresar</a></li>
+													<li><a href="#" {{return redirect('login')->with(Auth::logout())}} >Ingresar</a></li>
 													</ul>
 												</li>
 											</ul>
