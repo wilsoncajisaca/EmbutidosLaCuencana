@@ -2,6 +2,7 @@
 
 Route::resource('/', 'indexController');
 Route::resource('/index', 'indexController');
+Route::resource('/home', 'indexController');
 Route::resource('/blog', 'blogController');
 
 Route::resource('/productos', 'productosController');
