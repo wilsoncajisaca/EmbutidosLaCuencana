@@ -1,7 +1,7 @@
 <?php
 
-Route::resource('/', 'homeController');
-Route::resource('/index', 'homeController');
+Route::resource('/', 'indexController');
+Route::resource('/index', 'indexController');
 Route::resource('/blog', 'blogController');
 
 Route::resource('/productos', 'productosController');
@@ -15,3 +15,7 @@ Route::get('/nosotros', function(){
 Route::get('/contactanos', function(){
     return view("contacto");
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
