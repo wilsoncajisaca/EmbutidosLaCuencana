@@ -83,24 +83,20 @@
 					
 
 					@if (Route::has('login'))
-					
+						@auth
 						<span class="topbar-email">
-							@auth
-							
-							<div class="wrap_menu">
-									<nav class="menu">
-										<ul class="main_menu">
-											<li>
-												<a href="#">Perfil</a>
-											</li>
-										</ul>
-									</nav>
-							</div>	
-
-							@endauth
+								<div class="wrap_menu">
+										<nav class="menu">
+											<ul class="main_menu">
+												<li>
+													<a href="#">Perfil</a>
+												</li>
+											</ul>
+										</nav>
+								</div>	
 						</span>
 					@else
-					<div class="wrap_menu">
+						<div class="wrap_menu">
 							<nav class="menu">
 								<ul class="main_menu">
 									<li>
@@ -112,7 +108,8 @@
 									</li>
 								</ul>
 							</nav>
-					</div>	
+						</div>
+						@endauth
 					@endif
 
 					<span class="linedivide1"></span>
