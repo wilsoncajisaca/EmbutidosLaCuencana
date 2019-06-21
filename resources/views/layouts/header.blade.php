@@ -44,7 +44,7 @@
 								<a href="productos">Categorias</a>
 								<ul class="sub_menu">
 									@foreach (App\Categoria::orderBy('id','asc')->get() as $categoria)
-										<li><a href="#"> <?php echo $categoria->titulo; ?> </a></li>
+										<li><a href="#"> Hooola </a></li>
 									@endforeach
 								</ul>
 							</li>
