@@ -26,12 +26,12 @@ class Producto extends Model
 
         }elseif ($filtro==3) {
             return Producto::where('categoria_id',$idCat)
-            ->orderBy('precio','desc')
+            ->orderBy('precio','asc')
             ->get();
 
         }elseif ($filtro==4) {
             return Producto::where('categoria_id',$idCat)
-            ->orderBy('precio','asc')
+            ->orderBy('precio','desc')
             ->get();
         }
 
