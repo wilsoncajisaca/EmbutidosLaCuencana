@@ -43,8 +43,8 @@
 							<li>
 								<a href="productos">Categorias</a>
 								<ul class="sub_menu">
-									@foreach (App\Categoria::orderBy('id','asc')->get() as $categoria)
-										<li><a href="#"> {{$categoria->titulo}} </a></li>
+									@foreach (App\Categoria::all() as $categoria)
+										<li><a href="#"> {{$categoria->categoria}} </a></li>
 									@endforeach
 								</ul>
 							</li>
