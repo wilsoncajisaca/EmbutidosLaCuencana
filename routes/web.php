@@ -18,4 +18,4 @@ Route::get('/contactanos', function(){
 
 Auth::routes();
 
-Route::get('/home', 'indexController');
+Route::resource('/home', 'indexController');
