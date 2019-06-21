@@ -45,7 +45,7 @@ class productosController extends Controller
     {
         if($request->ajax()){
 
-            $productos=Producto::productosFilter($id, $filtro);
+            $productos=Producto::productosFilter($idCat, $filtro);
 
             return response()->json($productos);
         }
