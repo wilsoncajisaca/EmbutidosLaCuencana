@@ -81,6 +81,25 @@
 						<img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
 					
+
+					@if (Route::has('login'))
+					
+						<span class="topbar-email">
+							@auth
+							
+							<div class="wrap_menu">
+									<nav class="menu">
+										<ul class="main_menu">
+											<li>
+												<a href="#">Perfil</a>
+											</li>
+										</ul>
+									</nav>
+							</div>	
+
+							@endauth
+						</span>
+					@else
 					<div class="wrap_menu">
 							<nav class="menu">
 								<ul class="main_menu">
@@ -88,12 +107,13 @@
 										<a href="#">Perfil</a>
 										<ul class="sub_menu">
 											<li><a href="#" data-toggle="modal" data-target="#ingresar">Ingresar</a></li>
-											<li><a href="#" data-toggle="modal" data-target="#miModal">Crea una cuenta</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#registro">Crea una cuenta</a></li>
 										</ul>
 									</li>
 								</ul>
 							</nav>
-					</div>		
+					</div>	
+					@endif
 
 					<span class="linedivide1"></span>
 
