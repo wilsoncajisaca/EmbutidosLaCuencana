@@ -20,7 +20,7 @@ class indexController extends Controller
     public function index(Request $request)
     {
 
-        $request->user()->authorizeRoles('Admin');
+        $request->user()->authorizeRoles('admin');
 
         $slide = Slide::all();
         $producto = Producto::all();
