@@ -42,11 +42,6 @@
 
 							<li>
 								<a href="productos">Categorias</a>
-								<ul class="sub_menu">
-									@foreach (App\Categoria::all() as $categoria)
-										<li><a href="#"> {{$categoria->categoria}} </a></li>
-									@endforeach
-								</ul>
 							</li>
 
 							<li>
@@ -415,14 +410,6 @@
 
 					<li class="item-menu-mobile">
 						<a href="productos">Categorias</a>
-						<ul class="sub-menu">
-							<li><a href="#">Carne de Ternero</a></li>
-							<li><a href="#">Carne de Porcino</a></li>
-							<li><a href="#">Carne de Cordero</a></li>
-							<li><a href="#">Vino</a></li>
-							<li><a href="#">Varios</a></li>
-						</ul>
-						<i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
 					</li>
 
 					<li class="item-menu-mobile">

@@ -60,7 +60,7 @@
 					<div class="leftbar p-r-20 p-r-0-sm">
 						<!--  -->
 						<h4 class="m-text14 p-b-7">
-							Categories
+							Categorias
 						</h4>
 
 						<div class="flex-w">
