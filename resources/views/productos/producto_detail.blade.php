@@ -71,10 +71,9 @@
 
 						@foreach ($productoDetail as $producto)
 						
-							<div class="item-slick3" data-thumb="{{ asset(' ') }}">
+							<div class="item-slick3" data-thumb="{{ asset('images/thumb-item-01.jpg') }}">
 								<div class="wrap-pic-w">
-									<img src="{{ $producto->precio }}" alt="IMG-PRODUCT">
-									{{ $producto-> precio }}
+									<img src="{{ asset('images/product-detail-01.jpg') }}" alt="IMG-PRODUCT">
 								</div>
 							</div>
 
