@@ -102,7 +102,7 @@
 					<span class="linedivide1"></span>
 
 					<!--carrito -->
-					@include('car')
+					@include('layouts/car')
 
 				</div>
 			</div>
