@@ -81,7 +81,7 @@
 
 			<div class="w-size14 p-t-30 respon5">
 				<h4 class="product-detail-name m-text16 p-b-13">
-					{{ $productoDetail -> titulo }}
+					{{ $productoDetail -> titular }}
 				</h4>
 
 				<span class="m-text17">
