@@ -91,16 +91,17 @@
 					{{ $productoDetail -> descripcion }}
 				</p>
 
-				<!--  -->
+				
 				<div class="p-t-33 p-b-60">
 
 					<div class="flex-m flex-w">
+
 						<div class="s-text15 w-size15 t-center">
-							Color
+							Cantidad
 						</div>
 
 							<div class="flex-r-m flex-w p-t-10">
-									<div class="w-size16 flex-m flex-w">
+									
 										<div class="flex-w bo5 of-hidden m-r-22 m-t-10 m-b-10">
 											<button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2">
 												<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
@@ -116,10 +117,10 @@
 										<div class="btn-addcart-product-detail size9 trans-0-4 m-t-10 m-b-10">
 											<!-- Button -->
 											<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
-												Add to Cart
+												Añadir al carrito
 											</button>
 										</div>
-									</div>
+									
 							</div>
 
 					</div>
