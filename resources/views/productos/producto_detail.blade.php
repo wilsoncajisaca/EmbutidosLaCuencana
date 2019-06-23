@@ -69,9 +69,9 @@
 
 					<div class="slick3">
 						
-							<div class="item-slick3" data-thumb="{{ asset('images/thumb-item-01.jpg') }}">
+							<div class="item-slick3" data-thumb="{{ asset('$productoDetail -> portada') }}">
 								<div class="wrap-pic-w">
-									<img src="{{ asset('images/product-detail-01.jpg') }}" alt="IMG-PRODUCT">
+									<img src="{{ asset('$productoDetail -> portada') }}" alt="IMG-PRODUCT">
 									{{ $productoDetail -> precio }}
 								</div>
 							</div>
