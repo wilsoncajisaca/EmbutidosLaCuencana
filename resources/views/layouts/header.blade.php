@@ -103,7 +103,7 @@
 
 					<!--carrito -->
 					@include('layouts/car')
-
+					
 				</div>
 			</div>
 		</div>
