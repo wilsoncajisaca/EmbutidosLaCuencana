@@ -9,6 +9,8 @@ Route::resource('/productos', 'productosController');
 Route::get('catproductos/{id}', 'productosController@getProdCat');
 Route::get('catprodfilter/{id}/filtro/{idfilter}', 'productosController@productosFiltros');
 
+Route::get('/detalle-producto/{id}', 'DetailProductoController@productoDetalle');
+
 Route::get('/nosotros', function(){
     return view("about");
 });
