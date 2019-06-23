@@ -83,7 +83,6 @@ class productosController extends Controller
     {
 
         $productoDetail=Producto::findOrFail($id);
-        $productosImagen=Producto::findOrFail($id);
 
         return view ("productos.producto_detail",
                         [

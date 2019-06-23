@@ -81,7 +81,7 @@
 
 			<div class="w-size14 p-t-30 respon5">
 				<h4 class="product-detail-name m-text16 p-b-13">
-					{{ $productoDetail -> titular }}
+					{{ $productoDetail -> titulo }}
 				</h4>
 
 				<span class="m-text17">
@@ -89,7 +89,7 @@
 				</span>
 
 				<p class="s-text8 p-t-10">
-					{{ $productoDetail -> descripcion }}
+					{{ $productoDetail -> titular }}
 				</p>
 
 				<!--  -->
@@ -144,7 +144,7 @@
 
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
-							Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat
+							{{ $productoDetail -> descripcion }}
 						</p>
 					</div>
 				</div>
