@@ -72,7 +72,6 @@
 							<div class="item-slick3" data-thumb="{{ $productoDetail->portada }}">
 								<div class="wrap-pic-w">
 									<img src="{{ $productoDetail->portada }}" alt="IMG-PRODUCT">
-									{{ $productoDetail -> precio }}
 								</div>
 							</div>
 
@@ -86,7 +85,7 @@
 				</h4>
 
 				<span class="m-text17">
-					$22
+					{{ $productoDetail -> precio }}
 				</span>
 
 				<p class="s-text8 p-t-10">
