@@ -57,6 +57,7 @@
 		<span class="s-text17">
 			Boxy T-Shirt with Roll Sleeve Detail
 		</span>
+
 	</div>
 
 	<!-- Product Detail -->
@@ -67,23 +68,17 @@
 					<div class="wrap-slick3-dots"></div>
 
 					<div class="slick3">
-						<div class="item-slick3" data-thumb="images/thumb-item-01.jpg">
-							<div class="wrap-pic-w">
-								<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT">
-							</div>
-						</div>
 
-						<div class="item-slick3" data-thumb="images/thumb-item-02.jpg">
-							<div class="wrap-pic-w">
-								<img src="images/product-detail-02.jpg" alt="IMG-PRODUCT">
+						@foreach ($productoDetail as $producto)
+						
+							<div class="item-slick3" data-thumb="{{ asset('{{ $producto -> portada }}') }}">
+								<div class="wrap-pic-w">
+									<img src="{{ asset('{{ $producto -> portada }}') }}" alt="IMG-PRODUCT">
+								</div>
 							</div>
-						</div>
 
-						<div class="item-slick3" data-thumb="images/thumb-item-03.jpg">
-							<div class="wrap-pic-w">
-								<img src="images/product-detail-03.jpg" alt="IMG-PRODUCT">
-							</div>
-						</div>
+						@endforeach
+
 					</div>
 				</div>
 			</div>
