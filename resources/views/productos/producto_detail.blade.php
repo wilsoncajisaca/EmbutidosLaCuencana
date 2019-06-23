@@ -520,14 +520,14 @@
 
 
 <!--===============================================================================================-->
-	<script type="text/javascript" src="{{ URL::tovendor/jquery/jquery-3.2.1.min.js}}"></script>
+	<script type="text/javascript" src="{{ URL::to('vendor/jquery/jquery-3.2.1.min.js')}}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="{{ URL::tovendor/animsition/js/animsition.min.js}}"></script>
+	<script type="text/javascript" src="{{ URL::to('vendor/animsition/js/animsition.min.js')}}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="{{ URL::tovendor/bootstrap/js/popper.js}}"></script>
-	<script type="text/javascript" src="{{ URL::tovendor/bootstrap/js/bootstrap.min.js}}"></script>
+	<script type="text/javascript" src="{{ URL::to('vendor/bootstrap/js/popper.js')}}"></script>
+	<script type="text/javascript" src="{{ URL::to('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="{{ URL::tovendor/select2/select2.min.js}}"></script>
+	<script type="text/javascript" src="{{ URL::to('vendor/select2/select2.min.js')}}"></script>
 	<script type="text/javascript">
 		$(".selection-1").select2({
 			minimumResultsForSearch: 20,
@@ -540,10 +540,10 @@
 		});
 	</script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="{{ URL::tovendor/slick/slick.min.js}}"></script>
-	<script type="text/javascript" src="{{ URL::tojs/slick-custom.js}}"></script>
+	<script type="text/javascript" src="{{ URL::to('vendor/slick/slick.min.js')}}"></script>
+	<script type="text/javascript" src="{{ URL::to('js/slick-custom.js')}}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="{{ URL::tovendor/sweetalert/sweetalert.min.js}}"></script>
+	<script type="text/javascript" src="{{ URL::to('vendor/sweetalert/sweetalert.min.js')}}"></script>
 	<script type="text/javascript">
 		$('.block2-btn-addcart').each(function(){
 			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
