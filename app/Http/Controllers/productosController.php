@@ -84,11 +84,7 @@ class productosController extends Controller
 
         $productoDetail=Producto::find($id);
 
-            return view ("productos.producto_detail",
-                [
-                    'productoDetail'=>$productoDetail
-                ]
-        );
+        return view ("productos.producto_detail", compact("productoDetail"));
 
     }
 
