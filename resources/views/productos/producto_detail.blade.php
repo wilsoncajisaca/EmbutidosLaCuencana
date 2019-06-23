@@ -71,7 +71,7 @@
 
 						@foreach ($productoDetail as $producto)
 
-								{{ $producto->precio }}
+								{{ $producto }}
 						
 							<div class="item-slick3" data-thumb="{{ asset('images/thumb-item-01.jpg') }}">
 								<div class="wrap-pic-w">
