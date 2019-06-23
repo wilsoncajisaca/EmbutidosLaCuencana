@@ -70,6 +70,8 @@
 					<div class="slick3">
 
 						@foreach ($productoDetail as $producto)
+
+								{{ $producto->precio }}
 						
 							<div class="item-slick3" data-thumb="{{ asset('images/thumb-item-01.jpg') }}">
 								<div class="wrap-pic-w">
