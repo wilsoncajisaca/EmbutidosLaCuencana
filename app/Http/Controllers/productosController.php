@@ -87,8 +87,8 @@ class productosController extends Controller
 
         return view ("productos.producto_detail",
                         [
-                            'productoDetail'=>$blogs,
-                            'productosImagen'=>$masvendidos
+                            'productoDetail'=>$productoDetail,
+                            'productosImagen'=>$productosImagen
                         ]
                     );
     }
