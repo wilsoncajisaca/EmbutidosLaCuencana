@@ -3,15 +3,29 @@
     AGREGAR AL CARRITO DE COMPRAS...
     ================================
 */
+var listaCarrito=[];
 $(".agregarCarrito").click(function(){
 
     var idProducto=$(this).attr("idProducto");
-    console.log("idProducto", idProducto);
+    //console.log("idProducto", idProducto);
     var imagen=$(this).attr("imagen");
-    console.log("idProducto", imagen);
     var titulo=$(this).attr("tituloPro");
-    console.log("idProducto", titulo);
     var precio=$(this).attr("precioPro");
-    console.log("idProducto", precio);
+
+    /* =================================
+        Almacenar en el localstorage los productos al carrito
+    ================================ */
+
+    listaCarrito.push({
+                        "idProducto":idProducto,
+                        "imagen":imagen,
+                        "titulo":titulo,
+                        "precio":precio,
+                        "cantidad":"1"
+                        });
+    
+    console.log("ListaCarrito",listaCarrito);
+
+    localStorage.setItem("listaProductos",JSON.stringify(listaCarrito));
 
 });
