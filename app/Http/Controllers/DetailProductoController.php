@@ -12,8 +12,6 @@ class DetailProductoController extends Controller
     {
         $productoDetail=Producto::find($id);
 
-        echo $productoDetail;
-
         return view ("productos.producto_detail",
         [
             'productoDetail'=>$productoDetail
