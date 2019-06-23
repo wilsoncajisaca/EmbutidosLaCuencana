@@ -68,18 +68,13 @@
 					<div class="wrap-slick3-dots"></div>
 
 					<div class="slick3">
-
-						@foreach ($productoDetail as $producto)
-
-								{{ $productoDetail }}
 						
 							<div class="item-slick3" data-thumb="{{ asset('images/thumb-item-01.jpg') }}">
 								<div class="wrap-pic-w">
 									<img src="{{ asset('images/product-detail-01.jpg') }}" alt="IMG-PRODUCT">
+									{{ $productoDetail -> precio }}
 								</div>
 							</div>
-
-						@endforeach
 
 					</div>
 				</div>
