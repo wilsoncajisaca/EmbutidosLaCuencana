@@ -8,9 +8,9 @@ use App\Producto;
 
 class DetailProductoController extends Controller
 {
-    public function productoDetalle($id)
+    public function productoDetalle()
     {
-        $productoDetail=Producto::find($id);
+        $productoDetail=Producto::all();
 
         return view ("productos.producto_detail",
         [
