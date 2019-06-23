@@ -67,8 +67,9 @@
 				<div class="wrap-slick3 flex-sb flex-w">
 					<div class="wrap-slick3-dots"></div>
 
-					@foreach ($productoDetail as $producto)
 					<div class="slick3">
+
+						@foreach ($productoDetail as $producto)
 						
 							<div class="item-slick3" data-thumb="{{ asset('images/thumb-item-01.jpg') }}">
 								<div class="wrap-pic-w">
@@ -76,8 +77,9 @@
 								</div>
 							</div>
 
+						@endforeach
+
 					</div>
-					@endforeach
 				</div>
 			</div>
 
