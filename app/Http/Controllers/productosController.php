@@ -82,12 +82,13 @@ class productosController extends Controller
     public function show($id)
     {
 
-        $Productofind=Producto::where('categoria_id', $id)
-        ->orderBy('fecha', 'desc')
-        ->take(10)
-        ->get();
+        $productoDetail=Producto::find($id);
 
-        return view ("productos.lista", compact("Productofind"));
+            return view ("productos.producto_detail",
+                [
+                    'productoDetail'=>$productoDetail
+                ]
+        );
 
     }
 
