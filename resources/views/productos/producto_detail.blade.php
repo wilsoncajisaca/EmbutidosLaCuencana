@@ -74,7 +74,6 @@
 									<img src="{{ $productoDetail->portada }}" alt="IMG-PRODUCT">
 								</div>
 							</div>
-
 					</div>
 				</div>
 			</div>
@@ -85,7 +84,7 @@
 				</h4>
 
 				<span class="m-text17">
-					{{ $productoDetail -> precio }}
+					${{ $productoDetail -> precio }}
 				</span>
 
 				<p class="s-text8 p-t-10">
