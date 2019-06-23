@@ -71,10 +71,10 @@
 
 						@foreach ($productoDetail as $producto)
 						
-							<div class="item-slick3" data-thumb="{{ asset(' $producto -> portada ') }}">
+							<div class="item-slick3" data-thumb="{{ asset(' ') }}">
 								<div class="wrap-pic-w">
 									<img src="{{ $producto->portada }}" alt="IMG-PRODUCT">
-									{{ $producto-> portada }}
+									{{ $producto-> precio }}
 								</div>
 							</div>
 
