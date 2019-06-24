@@ -57,9 +57,9 @@
 							<th class="column-5">Total</th>
 						</tr>
 
-						<div class="listaProductos"> 
+						
 							<h3>No se encontraron productos en el carrito</h3>
-						</div>
+						
 
 					</table>
 				</div>
