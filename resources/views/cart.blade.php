@@ -59,7 +59,7 @@
 						</tr>
 
 						<tr class="table-row itemsProductos">
-									<td COLSPAN="5" id="sinProductos">
+									<td COLSPAN="5" class="sinProductos">
 									
 										<center><h2>No tienes productos en el carrito</h2></center>
 

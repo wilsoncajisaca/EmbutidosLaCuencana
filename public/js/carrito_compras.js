@@ -5,8 +5,7 @@
 */
 if(localStorage.getItem("listaProductos")!=null){
 
-    var sinItem = document.getElementById("sinProductos");
-        sinItem.style.display = 'none';
+    $(".sinProductos").hide();
 
     var listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
 
@@ -15,7 +14,7 @@ if(localStorage.getItem("listaProductos")!=null){
     function funcionForEach(item, index){
 
         $(".itemsProductos").append(`
-                                    <tr class="table-row">
+                                <tr class="table-row">
                                     <td class="column-1">
                                         <div class="cart-img-product b-rad-4 o-f-hidden">
                                             <img src="images/item-10.jpg" alt="IMG-PRODUCT">
