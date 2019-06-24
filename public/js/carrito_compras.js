@@ -1,13 +1,25 @@
 /*  
     ================================
-    AGREGAR AL CARRITO DE COMPRAS...
+    Visualizar los productos en la pagina del carrito de compras...
     ================================
 */
 if(localStorage.getItem("listaProductos")!=null){
 
     var listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
 
+    listaCarrito.forEach(funcionForEach);
+
+    function funcionForEach(item, index){
+        console.log("item",item.idProducto);
+    }
+
 }
+
+/*  
+    ================================
+    AGREGAR AL CARRITO DE COMPRAS...
+    ================================
+*/
 
 $(".agregarCarrito").click(function(){
 
