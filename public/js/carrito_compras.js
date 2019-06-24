@@ -5,7 +5,7 @@
 */
 if(localStorage.getItem("listaProductos")!=null){
 
-    var sinItem = document.getElementById(sinProductos);
+    var sinItem = document.getElementById("sinProductos");
         sinItem.style.display = 'none';
 
     var listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
