@@ -60,7 +60,7 @@
 						<tr class="table-row">
 							<td class="column-1">
 								<div class="cart-img-product b-rad-4 o-f-hidden">
-									<img src="{{ $listaProductos -> id }}" alt="IMG-PRODUCT">
+									<img src="images/item-10.jpg" alt="IMG-PRODUCT">
 								</div>
 							</td>
 							<td class="column-2">Men Tshirt</td>
