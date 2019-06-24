@@ -57,6 +57,8 @@
 							<th class="column-5">Total</th>
 						</tr>
 
+						{{ $listaProductos }}
+
 						@foreach ($listaProductos as $productos)
 					
 							<tr class="table-row">
