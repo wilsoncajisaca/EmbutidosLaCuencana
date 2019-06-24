@@ -119,8 +119,14 @@
 
 							<div class="btn-addcart-product-detail size9 trans-0-4 m-t-10 m-b-10">
 								<!-- Button -->
-								<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
+								<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4 agregarCarrito"
+										idProducto=	"{{ $productoDetail -> id }}"
+										imagen=		"{{ $productoDetail -> portada }}"
+										tituloPro=	"{{ $productoDetail -> titulo }}"
+										precioPro=	"{{ $productoDetail -> precio }}">
+
 									Añadir al carrito
+
 								</button>
 							</div>
 
