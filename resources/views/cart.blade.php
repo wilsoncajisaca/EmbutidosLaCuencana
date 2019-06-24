@@ -42,6 +42,13 @@
 		</h2>
 	</section>
 
+	<!-- Cart -->
+	<section class="cart bgwhite p-t-70 p-b-100 cuerpoGeneral">
+		
+		
+
+	</section>
+
 	@include('layouts/footer')
 
 	<!-- Back to top -->
