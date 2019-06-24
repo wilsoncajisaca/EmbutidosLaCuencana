@@ -524,6 +524,7 @@
 
 <!--===============================================================================================-->
 	<script src="{{ URL::to('js/main.js') }} "></script>
+	<script src="{{ URL::to('js/carrito_compras.js') }}"></script>
 
 </body>
 </html>
