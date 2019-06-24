@@ -12,7 +12,6 @@ if(localStorage.getItem("listaProductos")!=null){
     $(".cuerpoGeneral").append(`
         
     <!-- Cart -->
-    <section class="cart bgwhite p-t-70 p-b-100">
         <div class="container">
             <!-- Cart item -->
             <div class="container-table-cart pos-relative">
@@ -139,8 +138,7 @@ if(localStorage.getItem("listaProductos")!=null){
                             </button>
                         </div>
                     </div>
-                </div>
-            </section>`)
+                </div>`)
 
     function funcionForEach(item, index){
 
