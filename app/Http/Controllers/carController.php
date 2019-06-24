@@ -13,8 +13,6 @@ class carController extends Controller
     {
         $listaProductos=carrito::where("user_id",$user_id)->get();
 
-        echo $listaProductos;
-
         return view ("cart",
                         [
                             'listaProductos'=>$listaProductos
