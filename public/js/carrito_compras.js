@@ -40,6 +40,9 @@ if(localStorage.getItem("listaProductos")!=null){
 
     }else{
 
+        var sinItem = document.getElementById(id);
+        row.style.display = 'none';
+    
     }
 
 /*  
