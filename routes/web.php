@@ -4,7 +4,6 @@ Route::resource('/', 'indexController');
 Route::resource('index', 'indexController');
 Route::resource('home', 'indexController');
 Route::resource('blog', 'blogController');
-Route::resource('carrito', 'carController');
 Route::resource('productos', 'productosController');
 
 Route::get('catproductos/{id}', 'productosController@getProdCat');
@@ -17,6 +16,8 @@ Route::get('nosotros', function(){
 Route::get('contactanos', function(){
     return view("contacto");
 });
+
+Route::get('carrito/{user_id}', 'carController@listarProductos');
 
 Route::get('logout', 'Auth\LoginController@logout');
 
