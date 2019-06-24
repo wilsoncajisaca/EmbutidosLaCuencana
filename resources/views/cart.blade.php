@@ -41,39 +41,12 @@
 			Cart
 		</h2>
 	</section>
-
-
 	<!-- Cart -->
 	<section class="cart bgwhite p-t-70 p-b-100">
 		<div class="container">
-			<!-- Cart item -->
-			<div class="container-table-cart pos-relative">
-				<div class="wrap-table-shopping-cart bgwhite">
-					<table class="table-shopping-cart">
-						<div class="table-row itemsProductos" >
 
-							<tr class="table-row sinProductos">
+			<div class="tablaContenido">
 
-								<td COLSPAN="5">
-								
-									<center><h2>No tienes productos en el carrito</h2></center>
-
-								</td>
-								
-							</tr>
-
-						</div>
-
-						<tr class="table-head">
-								<th class="column-1"></th>
-								<th class="column-2">Product</th>
-								<th class="column-3">Price</th>
-								<th class="column-4 p-l-70">Quantity</th>
-								<th class="column-5">Total</th>
-							</tr>
-
-					</table>
-				</div>
 			</div>
 
 			<div class="flex-w flex-sb-m p-t-25 p-b-25 bo8 p-l-35 p-r-60 p-lr-15-sm">
