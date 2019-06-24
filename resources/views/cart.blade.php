@@ -58,7 +58,7 @@
 							<th class="column-5">Total</th>
 						</tr>
 
-						<div>
+						<div class="itemsProductos">
 
 							<tr class="table-row">
 									<td class="column-1">
