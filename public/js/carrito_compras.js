@@ -5,8 +5,6 @@
 */
 if(localStorage.getItem("listaProductos")!=null){
 
-    $(".sinProductos").hide();
-
     var listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
 
     listaCarrito.forEach(funcionForEach);
