@@ -5,6 +5,9 @@
 */
 if(localStorage.getItem("listaProductos")!=null){
 
+    var sinItem = document.getElementById(id);
+        sinItem.style.display = 'none';
+
     var listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
 
     listaCarrito.forEach(funcionForEach);
@@ -39,9 +42,6 @@ if(localStorage.getItem("listaProductos")!=null){
         }
 
     }else{
-
-        var sinItem = document.getElementById(id);
-        sinItem.style.display = 'none';
     
     }
 
