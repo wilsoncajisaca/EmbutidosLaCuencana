@@ -21,6 +21,7 @@ class CreateCarritosTable extends Migration
             $table->text('titulo');
             $table->float('precio');
             $table->integer('cantidad');
+            $table->float('total');
             $table->timestamps();
         });
     }
