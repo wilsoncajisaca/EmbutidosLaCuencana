@@ -57,7 +57,7 @@
 							<th class="column-5">Total</th>
 						</tr>
 
-						
+
 						<tr class="table-row">
 							<td class="column-1">
 								<div class="cart-img-product b-rad-4 o-f-hidden">
@@ -225,6 +225,7 @@
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+	<script src="{{ URL::to('js/carrito_compras.js') }}"></script>
 
 </body>
 </html>
