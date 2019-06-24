@@ -45,7 +45,7 @@
 	<!-- Cart -->
 	<section class="cart bgwhite p-t-70 p-b-100 cuerpoGeneral">
 		
-		
+
 
 	</section>
 
@@ -86,7 +86,7 @@
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
-	<script src="{{ URL::to('js/carrito_compras.js') }}"></script>
+	<script src="js/carrito_compras.js"></script>
 
 </body>
 </html>
