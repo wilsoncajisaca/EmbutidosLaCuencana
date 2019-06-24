@@ -3,9 +3,9 @@
     AGREGAR AL CARRITO DE COMPRAS...
     ================================
 */
-if(localStorage.getItem("listaProductos")==null){
+if(localStorage.getItem("listaProductos")!=null){
 
-    var listaCarrito= JSON.parse(localStorage.getItem("listaProductos"));
+    var listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
 
 }
 
