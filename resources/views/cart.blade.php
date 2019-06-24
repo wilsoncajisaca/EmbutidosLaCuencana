@@ -58,17 +58,13 @@
 							<th class="column-5">Total</th>
 						</tr>
 
-						<div class="itemsProductos">
-
-							<tr class="table-row">
-									<td COLSPAN="5">
+						<tr class="table-row itemsProductos">
+									<td COLSPAN="5" class="sinProductos">
 									
 										<center><h2>No tienes productos en el carrito</h2></center>
 
 									</td>
-							</tr>
-			
-						</div>
+						</tr>
 						
 					</table>
 				</div>
