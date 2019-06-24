@@ -65,8 +65,8 @@
 											<img src="images/item-10.jpg" alt="IMG-PRODUCT">
 										</div>
 									</td>
-									<td class="column-2">{{ $productos -> titulo}}</td>
-									<td class="column-3">${{ $productos -> precio}}</td>
+									<td class="column-2">{{ $productos -> titulo }}</td>
+									<td class="column-3">${{ $productos -> precio }}</td>
 									<td class="column-4">
 										<div class="flex-w bo5 of-hidden w-size17">
 											<button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2">
@@ -80,7 +80,7 @@
 											</button>
 										</div>
 									</td>
-									<td class="column-5">$ {{ $productos -> precio }}</td>
+									<td class="column-5">${{ $productos -> total }}</td>
 								</tr>
 
 						@endforeach
