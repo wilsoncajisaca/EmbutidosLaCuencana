@@ -60,9 +60,9 @@
 
 						<div class="table-row itemsProductos" >
 
-							<tr class="table-row itemsProductos">
+							<tr class="table-row sinProductos">
 
-								<td COLSPAN="5" class="sinProductos">
+								<td COLSPAN="5">
 								
 									<center><h2>No tienes productos en el carrito</h2></center>
 

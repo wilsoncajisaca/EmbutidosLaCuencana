@@ -14,6 +14,7 @@ if(localStorage.getItem("listaProductos")!=null){
     function funcionForEach(item, index){
 
         $(".itemsProductos").append(`
+                                <tr class="table-row">
                                     <td class="column-1">
                                         <div class="cart-img-product b-rad-4 o-f-hidden">
                                             <img src="images/item-10.jpg" alt="IMG-PRODUCT">
@@ -35,6 +36,7 @@ if(localStorage.getItem("listaProductos")!=null){
                                         </div>
                                     </td>
                                     <td class="column-5">$36.00</td>
+                                </tr>
                                 `)
         }
 
