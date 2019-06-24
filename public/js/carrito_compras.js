@@ -3,7 +3,12 @@
     AGREGAR AL CARRITO DE COMPRAS...
     ================================
 */
-var listaCarrito=[];
+if(localStorage.getItem("listaProductos")==null){
+
+    var listaCarrito= JSON.parse(localStorage.getItem("listaProductos"));
+
+}
+
 $(".agregarCarrito").click(function(){
 
     var idProducto=$(this).attr("idProducto");
@@ -11,6 +16,17 @@ $(".agregarCarrito").click(function(){
     var imagen=$(this).attr("imagen");
     var titulo=$(this).attr("tituloPro");
     var precio=$(this).attr("precioPro");
+
+
+    /* =================================
+        Recuperar almacenamiento del localstorage
+    ================================ */
+
+    if(localStorage.getItem("listaProductos")==null){
+        listaCarrito=[];
+    }else{
+        listaCarrito.concat(localStorage.getItem("listaProductos"));
+    }
 
     /* =================================
         Almacenar en el localstorage los productos al carrito
