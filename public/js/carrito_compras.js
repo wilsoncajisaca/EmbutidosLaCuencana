@@ -9,6 +9,8 @@ if(localStorage.getItem("listaProductos")!=null){
 
     listaCarrito.forEach(funcionForEach);
 
+    console.log("item", item.titulo);
+
     $(".cuerpoGeneral").append(`
         
     <!-- Cart -->
