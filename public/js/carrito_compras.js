@@ -9,8 +9,6 @@ if(localStorage.getItem("listaProductos")!=null){
 
     listaCarrito.forEach(funcionForEach);
 
-    console.log("item", item.titulo);
-
     $(".cuerpoGeneral").append(`
         
     <!-- Cart -->
@@ -139,6 +137,8 @@ if(localStorage.getItem("listaProductos")!=null){
             </section>`)
 
     function funcionForEach(item, index){
+
+        console.log("item", item.titulo);
 
         $(".cuerpoCarrito").append(`
                                 <tr class="table-row">
