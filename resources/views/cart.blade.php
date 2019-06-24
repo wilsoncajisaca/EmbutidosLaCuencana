@@ -61,7 +61,7 @@
 						<div class="itemsProductos">
 
 							<tr class="table-row">
-									<td>
+									<td COLSPAN="5">
 									
 										<h2>No tienes productos en el carrito</h2>
 

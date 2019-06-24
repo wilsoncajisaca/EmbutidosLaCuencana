@@ -9,15 +9,9 @@ use App\carrito;
 class carController extends Controller
 {
     
-    public function listarProductos($user_id)
+    public function listarProductos()
     {
-        $listaProductos=carrito::where("user_id",$user_id)->get();
-
-        return view ("cart",
-                        [
-                            'listaProductos'=>$listaProductos
-                        ]
-                    );
+        return view ("cart");
     }
 
 }

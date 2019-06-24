@@ -17,7 +17,7 @@ Route::get('contactanos', function(){
     return view("contacto");
 });
 
-Route::get('carrito/{user_id}', 'carController@listarProductos');
+Route::get('carrito', 'carController@listarProductos');
 
 Route::get('logout', 'Auth\LoginController@logout');
 
