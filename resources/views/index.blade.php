@@ -450,6 +450,7 @@
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+	<script src="js/carrito_compras.js"></script>
 
 </body>
 </html>
