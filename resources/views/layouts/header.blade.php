@@ -45,11 +45,11 @@
 							</li>
 
 							<li>
-								<a href="blog">Blog</a>
+								<a href="{{ route('blog.index') }}">Blog</a>
 							</li>
 
 							<li>
-								<a href="nosotros">Quienes somos</a>
+								<a href="{{ route('blog.index') }}">Quienes somos</a>
 							</li>
 
 							<li>
