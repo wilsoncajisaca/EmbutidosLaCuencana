@@ -41,68 +41,49 @@
 			Cart
 		</h2>
 	</section>
+
+
 	<!-- Cart -->
 	<section class="cart bgwhite p-t-70 p-b-100">
 		<div class="container">
+			<!-- Cart item -->
+			<div class="container-table-cart pos-relative">
+				<div class="wrap-table-shopping-cart bgwhite">
+					<table class="table-shopping-cart">
+						<tr class="table-head">
+							<th class="column-1"></th>
+							<th class="column-2">Product</th>
+							<th class="column-3">Price</th>
+							<th class="column-4 p-l-70">Quantity</th>
+							<th class="column-5">Total</th>
+						</tr>
 
-			<!--=====================================
-TABLA CARRITO DE COMPRAS
-======================================-->
+						<tr class="table-row">
+							<td class="column-1">
+								<div class="cart-img-product b-rad-4 o-f-hidden">
+									<img src="images/item-10.jpg" alt="IMG-PRODUCT">
+								</div>
+							</td>
+							<td class="column-2">Men Tshirt</td>
+							<td class="column-3">$36.00</td>
+							<td class="column-4">
+								<div class="flex-w bo5 of-hidden w-size17">
+									<button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2">
+										<i class="fs-12 fa fa-minus" aria-hidden="true"></i>
+									</button>
 
-<div class="container-fluid">
+									<input class="size8 m-text18 t-center num-product" type="number" name="num-product1" value="1">
 
-	<div class="container">
-
-		<div class="panel panel-default">
-			
-			<!--=====================================
-			CABECERA CARRITO DE COMPRAS
-			======================================-->
-
-			<div class="panel-heading cabeceraCarrito">
-				
-				<div class="col-md-6 col-sm-7 col-xs-12 text-center">
-					
-					<h3>
-						<small>PRODUCTO</small>
-					</h3>
-
+									<button class="btn-num-product-up color1 flex-c-m size7 bg8 eff2">
+										<i class="fs-12 fa fa-plus" aria-hidden="true"></i>
+									</button>
+								</div>
+							</td>
+							<td class="column-5">$36.00</td>
+						</tr>
+						
+					</table>
 				</div>
-
-				<div class="col-md-2 col-sm-1 col-xs-0 text-center">
-					
-					<h3>
-						<small>PRECIO</small>
-					</h3>
-
-				</div>
-
-				<div class="col-sm-2 col-xs-0 text-center">
-					
-					<h3>
-						<small>CANTIDAD</small>
-					</h3>
-
-				</div>
-
-				<div class="col-sm-2 col-xs-0 text-center">
-					
-					<h3>
-						<small>SUBTOTAL</small>
-					</h3>
-
-				</div>
-
-			</div>
-
-			<!--=====================================
-			CUERPO CARRITO DE COMPRAS
-			======================================-->
-
-			<div class="panel-body cuerpoCarrito">
-
-				
-
 			</div>
 
 			<div class="flex-w flex-sb-m p-t-25 p-b-25 bo8 p-l-35 p-r-60 p-lr-15-sm">
@@ -244,7 +225,6 @@ TABLA CARRITO DE COMPRAS
 	</script>
 <!--===============================================================================================-->
 	<script src="{{ URL::to('js/main.js') }}"></script>
-	<script src="{{ URL::to('js/carrito_compras.js') }}"></script>
 
 </body>
 </html>
