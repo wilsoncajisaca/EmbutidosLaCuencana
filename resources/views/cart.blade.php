@@ -58,7 +58,7 @@
 							<th class="column-5">Total</th>
 						</tr>
 
-						<div id="itemsProductos">
+						<div class="itemsProductos">
 
 							<tr class="table-row">
 									<td class="column-1">
@@ -82,7 +82,7 @@
 										</div>
 									</td>
 									<td class="column-5">$36.00</td>
-								</tr>
+							</tr>
 
 						</div>
 						

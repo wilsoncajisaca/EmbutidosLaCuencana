@@ -9,7 +9,7 @@ if(localStorage.getItem("listaProductos")!=null){
 
     listaCarrito.forEach(funcionForEach);
 
-    $("#itemsProductos").empty();
+    $(".itemsProductos").empty();
 
     function funcionForEach(item, index){
         $("#itemsProductos").append(`
