@@ -37,7 +37,7 @@
 					<nav class="menu">
 						<ul class="main_menu">
 							<li>
-								<a href="{{ route('/') }}">Hogar</a>
+								<a href="{{ route('/index') }}">Hogar</a>
 							</li>
 
 							<li>
