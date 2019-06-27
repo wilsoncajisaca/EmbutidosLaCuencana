@@ -5,12 +5,10 @@
     <!-- Header cart noti -->
     <div class="header-cart header-dropdown">
 
-        <div class="header-cart-total">
-            Total: $23.99
-        </div>
+        <div class="d-flex p-2">$23.99</div>
 
         <div class="header-cart-buttons">
-            
+
             <div class="header-cart-wrapbtn">
                 <!-- Button -->
                 <a href="carrito" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
