@@ -49,7 +49,8 @@
 			<!-- Cart item -->
 			<div class="container-table-cart pos-relative">
 				<div class="wrap-table-shopping-cart bgwhite">
-					<table class="table-shopping-cart">
+					<table class="table-shopping-cart listProductos">
+
 						<tr class="table-head">
 							<th class="column-1"></th>
 							<th class="column-2">Product</th>
@@ -57,8 +58,6 @@
 							<th class="column-4 p-l-70">Quantity</th>
 							<th class="column-5">Total</th>
 						</tr>
-
-						
 						
 					</table>
 				</div>
