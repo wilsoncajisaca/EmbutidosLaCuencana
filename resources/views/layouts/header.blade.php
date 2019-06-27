@@ -37,11 +37,11 @@
 					<nav class="menu">
 						<ul class="main_menu">
 							<li>
-								<a href="{{ route('indexController') }}">Hogar</a>
+								<a href="{{ route('home') }}">Hogar</a>
 							</li>
 
 							<li>
-								<a href="{{ route('productosController') }}">Productos</a>
+								<a href="{{ route('productos') }}">Productos</a>
 							</li>
 
 							<li>
