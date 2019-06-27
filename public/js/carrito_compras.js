@@ -9,10 +9,10 @@ if(localStorage.getItem("listaProductos")!=null){
 
     listaCarrito.forEach(funcionForEach);
 
-    $(".itemsProductos").empty();
+//    $(".itemsProductos").empty();
 
     function funcionForEach(item, index){
-        $("#itemsProductos").append(`
+        $(".table-shopping-cart").append(`
                                 <tr class="table-row">
                                     <td class="column-1">
                                         <div class="cart-img-product b-rad-4 o-f-hidden">
