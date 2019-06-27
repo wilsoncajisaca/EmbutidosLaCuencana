@@ -5,9 +5,13 @@
     <!-- Header cart noti -->
     <div class="header-cart header-dropdown">
 
-        <div class="header-cart-total">
-            Precio total a pagar: $23.99
-        </div>
+        <center>
+
+            <div class="header-cart-total">
+                    Precio total a pagar: $23.99
+            </div>
+
+        </center>
 
         <div class="header-cart-buttons">
 
