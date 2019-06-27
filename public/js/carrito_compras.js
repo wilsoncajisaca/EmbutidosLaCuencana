@@ -9,34 +9,9 @@ if(localStorage.getItem("listaProductos")!=null){
 
     listaCarrito.forEach(funcionForEach);
 
-    $(".tablaContenido").append(`
-                            <!-- Cart item -->
-                            <div class="container-table-cart pos-relative">
-                                <div class="wrap-table-shopping-cart bgwhite">
-                                    <table class="table-shopping-cart">
-
-                                        <tr class="table-head">
-                                            <th class="column-1"></th>
-                                            <th class="column-2">Product</th>
-                                            <th class="column-3">Price</th>
-                                            <th class="column-4 p-l-70">Quantity</th>
-                                            <th class="column-5">Total</th>
-                                        </tr>
-
-                                        <div class="table-row itemsProductos" >
-
-
-
-                                        </div>
-
-                                    </table>
-                                </div>
-                            </div>
-                                `);
-
     function funcionForEach(item, index){
 
-        $(".itemsProductos").append(`
+        $("#itemsProductos").append(`
                                 <tr class="table-row">
                                     <td class="column-1">
                                         <div class="cart-img-product b-rad-4 o-f-hidden">
