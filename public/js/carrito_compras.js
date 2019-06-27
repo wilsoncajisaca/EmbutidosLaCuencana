@@ -15,6 +15,8 @@ if(localStorage.getItem("listaProductos")!=null)
     function funcionForEach(item, index)
         {
 
+            alert("Texto a mostrar");
+
             $(".listProductos").append(`
                                 <tr class="table-row">
                                     <td class="column-1">
