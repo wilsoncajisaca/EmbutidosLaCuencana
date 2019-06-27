@@ -5,7 +5,9 @@
     <!-- Header cart noti -->
     <div class="header-cart header-dropdown">
 
-        <div class="d-flex p-2">$23.99</div>
+        <div class="header-cart-total">
+            Precio total a pagar: $23.99
+        </div>
 
         <div class="header-cart-buttons">
 
