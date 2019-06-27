@@ -37,23 +37,23 @@
 					<nav class="menu">
 						<ul class="main_menu">
 							<li>
-								<a href="/">Hogar</a>
+								<a href="{{ route('/') }}">Hogar</a>
 							</li>
 
 							<li>
-								<a href="productos">Productos</a>
+								<a href="{{ route('productos') }}">Productos</a>
 							</li>
 
 							<li>
-								<a href="blog">Blog</a>
+								<a href="{{ route('blog') }}">Blog</a>
 							</li>
 
 							<li>
-								<a href="nosotros">Quienes somos</a>
+								<a href="{{ route('nosotros') }}">Quienes somos</a>
 							</li>
 
 							<li>
-								<a href="contactanos">Contactanos</a>
+								<a href="{{ route('contactanos') }}">Contactanos</a>
 							</li>
 						</ul>
 					</nav>
