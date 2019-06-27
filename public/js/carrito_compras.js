@@ -6,6 +6,8 @@
 if(localStorage.getItem("listaProductos")!=null)
 {
 
+    alert("Texto a mostrar");
+
     var listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
 
     listaCarrito.forEach(funcionForEach);
@@ -42,8 +44,6 @@ if(localStorage.getItem("listaProductos")!=null)
         }
 
 }else{
-
-    alert("Texto a mostrar");
 
     }
 
