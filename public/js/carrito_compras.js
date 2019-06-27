@@ -12,7 +12,7 @@ if(localStorage.getItem("listaProductos")!=null){
 //    $(".itemsProductos").empty();
 
     function funcionForEach(item, index){
-        $(".listProductos").append(`
+        $("#listProductos").append(`
                                 <tr class="table-row">
                                     <td class="column-1">
                                         <div class="cart-img-product b-rad-4 o-f-hidden">
@@ -41,7 +41,7 @@ if(localStorage.getItem("listaProductos")!=null){
 
     }else{
 
-        $(".listProductos").append(`
+        $("#listProductos").append(`
         <tr class="table-row">
             <td class="column-1">
                 <div class="cart-img-product b-rad-4 o-f-hidden">
