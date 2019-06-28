@@ -11,8 +11,7 @@ if(localStorage.getItem("listaProductos")!=null){
 
     function funcionForEach(item, index){
 
-        $(".cuerpoCarrito").append(`
-                                <tr class="table-row">
+        $(".cuerpoCarrito").append(`<tr class="table-row">
                                     <td class="column-1">
                                         <div class="cart-img-product b-rad-4 o-f-hidden">
                                             <img src="${item.imagen}" alt="IMG-PRODUCT">
@@ -32,12 +31,15 @@ if(localStorage.getItem("listaProductos")!=null){
                                         </div>
                                     </td>
                                     <td class="column-5">$${item.precio}</td>
-                                </tr>
-                                `)
+                                </tr>`)
         }
 
     }else{
 
+        $("#cuerpoCarrito").hide;
+        $("#details_buy").hide;
+        $("#cupon").hide;
+        
     }
 
 /*  
