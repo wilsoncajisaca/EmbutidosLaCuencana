@@ -36,9 +36,11 @@ if(localStorage.getItem("listaProductos")!=null){
 
     }else{
 
-        $("#cuerpoCarrito").hide;
-        $("#details_buy").hide;
-        $("#cupon").hide;
+        $(".cuerpoCarrito").append(`<tr class="table-row"> <TH COLSPAN="5"> NO TIENES PRODUCTOS EN EL CARRITO </TH> </tr>`)
+
+        $(".check_buy").hide;
+        $(".details_buy").hide;
+        $(".cupon").hide;
         
     }
 
