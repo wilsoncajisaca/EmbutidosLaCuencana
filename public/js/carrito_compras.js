@@ -12,7 +12,6 @@ if(localStorage.getItem("listaProductos")!=null){
     function funcionForEach(item, index){
 
         $(".cuerpoCarrito").append(`
-
                                     <tr class="table-row">
                                     <td class="column-1">
                                         <div class="cart-img-product b-rad-4 o-f-hidden">
@@ -34,7 +33,6 @@ if(localStorage.getItem("listaProductos")!=null){
                                     </td>
                                     <td class="column-5">$${item.precio}</td>
                                 </tr>
-
                                 `)
         }
 
