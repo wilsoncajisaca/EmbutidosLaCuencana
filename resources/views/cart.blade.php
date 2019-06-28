@@ -57,11 +57,11 @@
 							<th class="column-5">Total</th>
 						</tr>
 
-						<div class="cuerpoCarrito">
+						<tbody class="cuerpoCarrito">
 
 							
 
-						</div>
+						</tbody>
 
 					</table>
 				</div>
