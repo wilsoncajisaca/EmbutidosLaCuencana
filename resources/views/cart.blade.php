@@ -59,8 +59,8 @@
 							<th class="column-5">Total</th>
 						</tr>
 
-						<div class="Productos" >
-							ouiupujjoijoijoonjijio
+						<div class="ProductosItem" >
+
 						</div>
 						
 					</table>
