@@ -88,7 +88,7 @@
 			<!-- Total -->
 			<div class="bo9 w-size18 p-l-40 p-r-40 p-t-30 p-b-38 m-t-30 m-r-0 m-l-auto p-lr-15-sm">
 				<h5 class="m-text20 p-b-24">
-					Cart Totals
+					Detalles de la compra
 				</h5>
 
 				<!--  -->
