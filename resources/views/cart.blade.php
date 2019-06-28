@@ -49,6 +49,7 @@
 			<div class="container-table-cart pos-relative">
 				<div class="wrap-table-shopping-cart bgwhite">
 					<table class="table-shopping-cart">
+						
 						<tr class="table-head">
 							<th class="column-1"></th>
 							<th class="column-2">Product</th>
