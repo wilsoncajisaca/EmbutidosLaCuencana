@@ -49,12 +49,12 @@
 			<div class="container-table-cart pos-relative">
 				<div class="wrap-table-shopping-cart bgwhite">
 					<table class="table-shopping-cart">
-						
+
 						<tr class="table-head">
 							<th class="column-1"></th>
-							<th class="column-2">Product</th>
-							<th class="column-3">Price</th>
-							<th class="column-4 p-l-70">Quantity</th>
+							<th class="column-2">Producto</th>
+							<th class="column-3">Precio</th>
+							<th class="column-4 p-l-70">Cantidad</th>
 							<th class="column-5">Total</th>
 						</tr>
 
