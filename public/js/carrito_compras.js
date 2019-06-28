@@ -36,11 +36,16 @@ if(localStorage.getItem("listaProductos")!=null){
 
     }else{
 
-        $(".cuerpoCarrito").append(`<tr class="table-row"> <TH COLSPAN="5"> NO TIENES PRODUCTOS EN EL CARRITO </TH> </tr>`)
+        $(".cuerpoCarrito").append(`<tr class="table-row"> <th COLSPAN="5"> <center> NO TIENES PRODUCTOS EN EL CARRITO </center> </th> </tr>`)
 
-        $(".check_buy").hide;
-        $(".details_buy").hide;
-        $(".cupon").hide;
+        var producto1 = document.getElementById('check_buy');
+        var producto2 = document.getElementById('details_buy');
+        var producto3 = document.getElementById('cupon');
+
+        producto1.style.display = 'none';
+        producto2.style.display = 'none';
+        producto3.style.display = 'none';
+
         
     }
 

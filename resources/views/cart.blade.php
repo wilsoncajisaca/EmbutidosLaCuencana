@@ -68,7 +68,7 @@
 						<input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="coupon-code" placeholder="Codigo cupon">
 					</div>
 
-					<div class="size12 trans-0-4 m-t-10 m-b-10 m-r-10 cupon">
+					<div class="size12 trans-0-4 m-t-10 m-b-10 m-r-10" id="cupon">
 						<!-- Button -->
 						<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
 							Aplicar cupon
@@ -86,7 +86,7 @@
 			</div>
 
 			<!-- Total -->
-			<div class="bo9 w-size18 p-l-40 p-r-40 p-t-30 p-b-38 m-t-30 m-r-0 m-l-auto p-lr-15-sm details_buy">
+			<div class="bo9 w-size18 p-l-40 p-r-40 p-t-30 p-b-38 m-t-30 m-r-0 m-l-auto p-lr-15-sm" id="details_buy">
 				<h5 class="m-text20 p-b-24">
 					Detalles de la compra
 				</h5>
@@ -141,7 +141,7 @@
 
 				<div class="size15 trans-0-4">
 					<!-- Button -->
-					<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4 check_buy">
+					<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4" id="check_buy">
 						Proceder a pagar
 					</button>
 				</div>
