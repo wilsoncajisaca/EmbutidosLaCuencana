@@ -7,6 +7,8 @@ if(localStorage.getItem("listaProductos")!=null)
 {
 
     var listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
+    alert("Hello! I am an alert box!! "+listaCarrito);
+
 
     listaCarrito.forEach(funcionForEach);
 
