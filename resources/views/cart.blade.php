@@ -127,7 +127,7 @@
 				</div>
 
 				<!--  -->
-				<div class="flex-w flex-sb bo10 p-t-15 p-b-20">
+				<div class="bo10">
 					<div class="flex-w flex-sb-m p-t-26 p-b-30">
 						<span class="m-text22 w-size19 w-full-sm">
 							Total:
