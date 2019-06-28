@@ -45,6 +45,8 @@ if(localStorage.getItem("listaProductos")!=null)
 
 }else{
 
+    alert("No tienes datos!!");
+
     }
 
 /*  
