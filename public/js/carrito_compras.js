@@ -6,8 +6,6 @@
 if(localStorage.getItem("listaProductos")!=null)
 {
 
-    alert("Texto a mostrar");
-
     var listaCarrito = JSON.parse(localStorage.getItem("listaProductos"));
 
     listaCarrito.forEach(funcionForEach);
