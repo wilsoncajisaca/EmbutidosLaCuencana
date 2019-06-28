@@ -59,7 +59,7 @@
 							<th class="column-5">Total</th>
 						</tr>
 
-						<div id="listProductos" >
+						<div class="Productos" >
 							ouiupujjoijoijoonjijio
 						</div>
 						
